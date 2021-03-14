@@ -57,7 +57,7 @@ namespace MackySoft.Vision {
 					EditorGUI.showMixedValue = distance.hasMultipleDifferentValues;
 					float editedDistance = EditorGUI.FloatField(
 						rect,
-						new GUIContent("Level " + (index + 1).ToString()),
+						new GUIContent("Level " + index.ToString()),
 						distance.floatValue
 					);
 					EditorGUI.showMixedValue = false;
@@ -113,7 +113,7 @@ namespace MackySoft.Vision {
 					group.DistanceReferencePoint.position,
 					group.BoundingDistances[i]
 				);
-				Handles.Label(group.DistanceReferencePoint.position + new Vector3(group.BoundingDistances[i] + 0.1f,0f,0f),"Level " + (i + 1).ToString(),EditorStyles.boldLabel);
+				Handles.Label(group.DistanceReferencePoint.position + new Vector3(group.BoundingDistances[i] + 0.1f,0f,0f),"Level " + i.ToString(),EditorStyles.boldLabel);
 				if (EditorGUI.EndChangeCheck()) {
 					Undo.RecordObject(group,$"{nameof(CullingGroupProxy)} \"{group.name}\" distances");
 

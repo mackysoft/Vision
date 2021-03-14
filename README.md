@@ -15,9 +15,19 @@ CullingGroup offers a way to integrate your own systems into Unity’s culling a
 
 > Unity Manual: https://docs.unity3d.com/Manual/CullingGroupAPI.html
 
-This is a great feature, but its implementation is a difficult because it can only be accessed through scripts and its usage is quirky.
 
-Vision provides a component for easy access to the CullingGroup API and an intuitive visual editor.
+## Why Vision ?
+
+CullingGroup is a great feature, but its implementation is a difficult because it can only be accessed through scripts and its usage is quirky.
+
+Vision has made such a CullingGroup available to everyone.
+
+#### Vision Features
+
+- Components for easy access to CullingGroup.
+- Intuitive visual editor.
+- High performance
+
 
 ## <a id="index" href="#index"> Table of Contents </a>
 
@@ -59,6 +69,26 @@ You can define a new key in the `GroupKeyDefinitions` list.
 > 
 > ![VisionSettings](https://user-images.githubusercontent.com/13536348/111070868-033cf280-8517-11eb-852c-386f00ad2f45.jpg)
 
+
+#### 3. Distances
+
+By setting `DistanceReferencePoint` and `BoundingDistances` of `CullingGroupProxy`, you can calculate the relative distance between a reference point (for example, camera, player) and the bounding sphere's.
+
+![CullingGroupPRoxy_Distances](https://user-images.githubusercontent.com/13536348/111077905-465a8e00-8536-11eb-92c1-657f73c1e7df.jpg)
+
+If `BoundingDistances` is set to { 10, 20, 30 },
+
+|Distance Level|Range|
+|:--|:--|
+|Level 0|0m ~ 10m|
+|Level 1|10m ~ 20m|
+|Level 2|20m ~ 30m|
+
+The last level and beyond will be treated as invisible.
+
+> `BoundingDistances` can be adjusted visually from the scene view !
+
+![CullingTargetProxy_Distances_Gizmo](https://user-images.githubusercontent.com/13536348/111077910-4c506f00-8536-11eb-917b-dd35a4bdc6bd.jpg)
 
 ## <a id="attach-the-culling-target-behaviour" href="#attach-the-culling-target-behaviour"> 2. Attach the CullingTargetBehaviour </a>
 
@@ -128,7 +158,7 @@ public class ReceiveCallbackExample : MonoBehaviour {
 
 ## <a id="utilities" href="#utilities"> Utilities </a>
 
-Vision provides generic functions that can be used with no coding.
+Vision provides utility components that can be used with no coding.
 
 
 ### <a id="culling-target-renderers" href="#culling-target-renderers"> Culling Target Renderers </a>

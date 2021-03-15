@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	[CustomEditor(typeof(CullingTargetBehaviour))]
 	[CanEditMultipleObjects]
-	public class CullingTargetBehaviourInspector : Editor {
+	public class CullingTargetBehaviourInspector : UnityEditor.Editor {
 
 		const string k_InfoStateKey = "Vision_CullingTargetBehaviour_Info";
 

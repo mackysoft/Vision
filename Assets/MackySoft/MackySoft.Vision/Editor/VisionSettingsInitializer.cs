@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	/// <summary>
 	/// Automatically create <see cref="VisionSettings"/>.

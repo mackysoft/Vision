@@ -7,11 +7,11 @@ using UnityEditorInternal;
 
 using UnityObject = UnityEngine.Object;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	[CustomEditor(typeof(CullingGroupProxy))]
 	[CanEditMultipleObjects]
-	public class CullingGroupProxyInspector : Editor {
+	public class CullingGroupProxyInspector : UnityEditor.Editor {
 
 		const string k_InfoStateKey = "Vision_CullingGroupProxy_Info";
 

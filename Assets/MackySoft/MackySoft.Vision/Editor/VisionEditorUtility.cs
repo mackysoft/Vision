@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 	public static class VisionEditorUtility {
 
 		const string k_VisionMenuPath = "Tools/Vision/";

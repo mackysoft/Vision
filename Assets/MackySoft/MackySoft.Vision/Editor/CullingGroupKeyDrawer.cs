@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEditor;
 using System.Collections.Generic;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	[CustomPropertyDrawer(typeof(CullingGroupKey))]
 	public class CullingGroupKeyDrawer : PropertyDrawer {

@@ -2,10 +2,10 @@ using UnityEngine;
 using UnityEditor;
 using UnityEditorInternal;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	[CustomEditor(typeof(VisionSettings))]
-	public class VisionSettingsInspector : Editor {
+	public class VisionSettingsInspector : UnityEditor.Editor {
 
 		SerializedProperty m_GroupKeyDefinitions;
 		ReorderableList m_GroupKeyDefinitionsList;

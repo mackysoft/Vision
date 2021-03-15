@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEditor;
 using UnityEngine.UIElements;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 	public class VisionSettingsProvider : SettingsProvider {
 
 		static readonly Lazy<GUIStyle> k_SettingsStyle = new Lazy<GUIStyle>(() => {
@@ -16,13 +16,13 @@ namespace MackySoft.Vision {
 			return style;
 		});
 
-		Editor m_SettingsEditor;
+		UnityEditor.Editor m_SettingsEditor;
 
 		protected VisionSettingsProvider (string path,SettingsScope scopes,IEnumerable<string> keywords = null) : base(path,scopes,keywords) {
 		}
 
 		public override void OnActivate (string searchContext,VisualElement rootElement) {
-			m_SettingsEditor = Editor.CreateEditor(VisionSettings.Instance);
+			m_SettingsEditor = UnityEditor.Editor.CreateEditor(VisionSettings.Instance);
 		}
 
 		public override void OnDeactivate () {

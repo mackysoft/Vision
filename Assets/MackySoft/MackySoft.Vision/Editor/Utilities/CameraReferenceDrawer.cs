@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEditor;
 
-namespace MackySoft.Vision.Utilities {
+namespace MackySoft.Vision.Utilities.Editor {
 
 	[CustomPropertyDrawer(typeof(CameraReference))]
 	public class CameraReferenceDrawer : PropertyDrawer {

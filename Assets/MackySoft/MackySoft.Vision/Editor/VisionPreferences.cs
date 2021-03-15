@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEditor;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Editor {
 
 	[FilePath("VisionPreferences.asset",FilePathAttribute.Location.PreferencesFolder)]
 	public class VisionPreferences : ScriptableSingleton<VisionPreferences> {

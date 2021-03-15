@@ -151,7 +151,7 @@ namespace MackySoft.Vision.Internal {
 
 	}
 
-	public static class ArrayPoolExtensions {
+	internal static class ArrayPoolExtensions {
 
 		/// <summary>
 		/// <para> Convert enumerable to array. Array are returned from <see cref="ArrayPool{T}"/>. </para>

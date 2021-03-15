@@ -20,7 +20,7 @@ namespace MackySoft.Vision {
 	}
 
 	/// <summary>
-	/// Relay component for easy access to the <see cref="CullingGroup"/> API.
+	/// Relay component for easy access to the CullingGroup API.
 	/// </summary>
 	[AddComponentMenu("MackySoft/Vision/Culling Group Proxy")]
 	[HelpURL("https://github.com/mackysoft/Vision")]

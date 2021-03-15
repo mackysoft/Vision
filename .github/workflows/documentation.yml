@@ -1,4 +1,4 @@
-name: Build and Deploy documentation
+name: Example documentation
 
 on:
   push:

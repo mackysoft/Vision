@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Vision - CullingGroup API for everyone | Vision </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Vision - CullingGroup API for everyone | Vision ">
+    <meta name="generator" content="docfx 2.56.7.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.svg" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="">
+<h1 id="vision---cullinggroup-api-for-everyone" sourcefile="index.md" sourcestartlinenumber="1" sourceendlinenumber="1">Vision - CullingGroup API for everyone</h1>
+
+<p sourcefile="index.md" sourcestartlinenumber="3" sourceendlinenumber="3"><strong>Created by Hiroya Aramaki (<a href="https://twitter.com/makihiro_dev" data-raw-source="[Makihiro](https://twitter.com/makihiro_dev)" sourcefile="index.md" sourcestartlinenumber="3" sourceendlinenumber="3">Makihiro</a>)</strong></p>
+<h2 id="what-is-cullinggroup-api-" sourcefile="index.md" sourcestartlinenumber="6" sourceendlinenumber="6">What is CullingGroup API ?</h2>
+<p sourcefile="index.md" sourcestartlinenumber="8" sourceendlinenumber="8">CullingGroup offers a way to integrate your own systems into Unity’s culling and LOD pipeline.</p>
+<ul sourcefile="index.md" sourcestartlinenumber="10" sourceendlinenumber="14">
+<li sourcefile="index.md" sourcestartlinenumber="10" sourceendlinenumber="10">Simulating a crowd of people, while only having full GameObjects for the characters that are actually visible right now.</li>
+<li sourcefile="index.md" sourcestartlinenumber="11" sourceendlinenumber="11">Building a GPU particle system driven by Graphics.DrawProcedural, but skipping rendering particle systems that are behind a wall.</li>
+<li sourcefile="index.md" sourcestartlinenumber="12" sourceendlinenumber="12">Tracking which spawn points are hidden from the camera in order to spawn enemies without the player seeing them ‘pop’ into view.</li>
+<li sourcefile="index.md" sourcestartlinenumber="13" sourceendlinenumber="13">Switching characters from full-quality animation and AI calculations when close, to lower-quality cheaper behaviour at a distance.</li>
+<li sourcefile="index.md" sourcestartlinenumber="14" sourceendlinenumber="14">Having 10,000 marker points in your scene and efficiently finding out when the player gets within 1m of any of them.</li>
+</ul>
+<blockquote sourcefile="index.md" sourcestartlinenumber="16" sourceendlinenumber="16"><p sourcefile="index.md" sourcestartlinenumber="16" sourceendlinenumber="16">Unity Manual: <a href="https://docs.unity3d.com/Manual/CullingGroupAPI.html" data-raw-source="https://docs.unity3d.com/Manual/CullingGroupAPI.html" sourcefile="index.md" sourcestartlinenumber="16" sourceendlinenumber="16">https://docs.unity3d.com/Manual/CullingGroupAPI.html</a></p>
+</blockquote>
+<h2 id="why-vision-" sourcefile="index.md" sourcestartlinenumber="19" sourceendlinenumber="19">Why Vision ?</h2>
+<p sourcefile="index.md" sourcestartlinenumber="21" sourceendlinenumber="21">CullingGroup is a great feature, but its implementation is a difficult because it can only be accessed through scripts and its usage is quirky.</p>
+<p sourcefile="index.md" sourcestartlinenumber="23" sourceendlinenumber="23">Vision has made such a CullingGroup available to everyone.</p>
+<h4 id="vision-features" sourcefile="index.md" sourcestartlinenumber="25" sourceendlinenumber="25">Vision Features</h4>
+<ul sourcefile="index.md" sourcestartlinenumber="27" sourceendlinenumber="29">
+<li sourcefile="index.md" sourcestartlinenumber="27" sourceendlinenumber="27">Components for easy access to CullingGroup.</li>
+<li sourcefile="index.md" sourcestartlinenumber="28" sourceendlinenumber="28">Intuitive visual editor.</li>
+<li sourcefile="index.md" sourcestartlinenumber="29" sourceendlinenumber="29">High performance</li>
+</ul>
+<h2 id="a-idindex-hrefindex-table-of-contents-a" sourcefile="index.md" sourcestartlinenumber="32" sourceendlinenumber="32"><a id="index" href="#index"> Table of Contents </a></h2>
+<ul sourcefile="index.md" sourcestartlinenumber="34" sourceendlinenumber="42">
+<li sourcefile="index.md" sourcestartlinenumber="34" sourceendlinenumber="34"><a href="#installation" data-raw-source="[&#128229; Installation](#installation)" sourcefile="index.md" sourcestartlinenumber="34" sourceendlinenumber="34">📥 Installation</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="35" sourceendlinenumber="38"><a href="#usage" data-raw-source="[&#128304; Usage](#usage)" sourcefile="index.md" sourcestartlinenumber="35" sourceendlinenumber="35">🔰 Usage</a><ul sourcefile="index.md" sourcestartlinenumber="36" sourceendlinenumber="38">
+<li sourcefile="index.md" sourcestartlinenumber="36" sourceendlinenumber="36"><a href="#create-the-culling-group-proxy" data-raw-source="[1. Create the CullingGroupProxy](#create-the-culling-group-proxy)" sourcefile="index.md" sourcestartlinenumber="36" sourceendlinenumber="36">1. Create the CullingGroupProxy</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="37" sourceendlinenumber="37"><a href="#attach-the-culling-target-behaviour" data-raw-source="[2. Attach the CullingTargetBehaviour](#attach-the-culling-target-behaviour)" sourcefile="index.md" sourcestartlinenumber="37" sourceendlinenumber="37">2. Attach the CullingTargetBehaviour</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="38" sourceendlinenumber="38"><a href="#receive-callback" data-raw-source="[3. Receive a callback](#receive-callback)" sourcefile="index.md" sourcestartlinenumber="38" sourceendlinenumber="38">3. Receive a callback</a></li>
+</ul>
+</li>
+<li sourcefile="index.md" sourcestartlinenumber="39" sourceendlinenumber="40"><a href="#utilities" data-raw-source="[⚒Utilities](#utilities)" sourcefile="index.md" sourcestartlinenumber="39" sourceendlinenumber="39">⚒Utilities</a><ul sourcefile="index.md" sourcestartlinenumber="40" sourceendlinenumber="40">
+<li sourcefile="index.md" sourcestartlinenumber="40" sourceendlinenumber="40"><a href="#culling-target-renderers" data-raw-source="[Culling Target Renderers](#culling-target-renderers)" sourcefile="index.md" sourcestartlinenumber="40" sourceendlinenumber="40">Culling Target Renderers</a></li>
+</ul>
+</li>
+<li sourcefile="index.md" sourcestartlinenumber="41" sourceendlinenumber="41"><a href="#author-info" data-raw-source="[&#128212; Author Info](#author-info)" sourcefile="index.md" sourcestartlinenumber="41" sourceendlinenumber="41">📔 Author Info</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="42" sourceendlinenumber="42"><a href="#license" data-raw-source="[&#128220; License](#license)" sourcefile="index.md" sourcestartlinenumber="42" sourceendlinenumber="42">📜 License</a></li>
+</ul>
+<h1 id="a-idinstallation-hrefinstallation--installation-a" sourcefile="index.md" sourcestartlinenumber="45" sourceendlinenumber="45"><a id="installation" href="#installation"> 📥 Installation </a></h1>
+<p sourcefile="index.md" sourcestartlinenumber="47" sourceendlinenumber="47">Download any version from releases.</p>
+<p sourcefile="index.md" sourcestartlinenumber="49" sourceendlinenumber="49">Releases: <a href="https://github.com/mackysoft/Vision/releases" data-raw-source="https://github.com/mackysoft/Vision/releases" sourcefile="index.md" sourcestartlinenumber="49" sourceendlinenumber="49">https://github.com/mackysoft/Vision/releases</a></p>
+<h1 id="a-idusage-hrefrequirements--usage-a" sourcefile="index.md" sourcestartlinenumber="52" sourceendlinenumber="52"><a id="usage" href="#requirements"> 🔰 Usage </a></h1>
+<h2 id="a-idcreate-the-culling-group-proxy-hrefcreate-the-culling-group-proxy-1-create-the-cullinggroupproxy-a" sourcefile="index.md" sourcestartlinenumber="54" sourceendlinenumber="54"><a id="create-the-culling-group-proxy" href="#create-the-culling-group-proxy"> 1. Create the CullingGroupProxy </a></h2>
+<p sourcefile="index.md" sourcestartlinenumber="56" sourceendlinenumber="56">First, create a <code>CullingGroupProxy</code>, which is the core of Vision.</p>
+<h4 id="1-from-the-toolsvisioncreate-new-cullinggroupproxy-menu-create-a-cullinggroupproxy" sourcefile="index.md" sourcestartlinenumber="58" sourceendlinenumber="58">1. From the <code>Tools/Vision/Create New CullingGroupProxy</code> menu, create a <code>CullingGroupProxy</code>.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="60" sourceendlinenumber="60"><img src="https://user-images.githubusercontent.com/13536348/111070665-0c798f80-8516-11eb-8ed6-d1f87cc31b61.jpg" alt="NewCullingGroupProxy" sourcefile="index.md" sourcestartlinenumber="60" sourceendlinenumber="60"></p>
+<h4 id="2-set-the-key-to-the-created-cullinggroupproxy" sourcefile="index.md" sourcestartlinenumber="63" sourceendlinenumber="63">2. Set the key to the created <code>CullingGroupProxy</code>.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="65" sourceendlinenumber="65">Set the key by clicking the <code>Key</code> popup in <code>CullingGroupProxy</code>. By default, there is a <code>Main</code> key.</p>
+<blockquote sourcefile="index.md" sourcestartlinenumber="67" sourceendlinenumber="68"><p sourcefile="index.md" sourcestartlinenumber="67" sourceendlinenumber="68">If you don&#39;t see the key, open settings from the <code>&lt;add key&gt;</code> or <code>Tools/Vision/Open Settings</code> menu.
+You can define a new key in the <code>GroupKeyDefinitions</code> list.</p>
+<p sourcefile="index.md" sourcestartlinenumber="70" sourceendlinenumber="70"><img src="https://user-images.githubusercontent.com/13536348/111070868-033cf280-8517-11eb-852c-386f00ad2f45.jpg" alt="VisionSettings" sourcefile="index.md" sourcestartlinenumber="70" sourceendlinenumber="70"></p>
+</blockquote>
+<h4 id="3-distances" sourcefile="index.md" sourcestartlinenumber="73" sourceendlinenumber="73">3. Distances</h4>
+<p sourcefile="index.md" sourcestartlinenumber="75" sourceendlinenumber="75">By setting <code>DistanceReferencePoint</code> and <code>BoundingDistances</code> of <code>CullingGroupProxy</code>, you can calculate the relative distance between a reference point (for example, camera, player) and the bounding sphere&#39;s.</p>
+<p sourcefile="index.md" sourcestartlinenumber="77" sourceendlinenumber="77"><img src="https://user-images.githubusercontent.com/13536348/111077905-465a8e00-8536-11eb-92c1-657f73c1e7df.jpg" alt="CullingGroupPRoxy_Distances" sourcefile="index.md" sourcestartlinenumber="77" sourceendlinenumber="77"></p>
+<p sourcefile="index.md" sourcestartlinenumber="79" sourceendlinenumber="79">If <code>BoundingDistances</code> is set to { 10, 20, 30 },</p>
+<table sourcefile="index.md" sourcestartlinenumber="81" sourceendlinenumber="85">
+<thead>
+<tr>
+<th style="text-align:left">Distance Level</th>
+<th style="text-align:left">Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Level 0</td>
+<td style="text-align:left">0m ~ 10m</td>
+</tr>
+<tr>
+<td style="text-align:left">Level 1</td>
+<td style="text-align:left">10m ~ 20m</td>
+</tr>
+<tr>
+<td style="text-align:left">Level 2</td>
+<td style="text-align:left">20m ~ 30m</td>
+</tr>
+</tbody>
+</table>
+<p sourcefile="index.md" sourcestartlinenumber="87" sourceendlinenumber="87">The last level and beyond will be treated as invisible.</p>
+<blockquote sourcefile="index.md" sourcestartlinenumber="89" sourceendlinenumber="89"><p sourcefile="index.md" sourcestartlinenumber="89" sourceendlinenumber="89"><code>BoundingDistances</code> can be adjusted visually from the scene view !</p>
+</blockquote>
+<p sourcefile="index.md" sourcestartlinenumber="91" sourceendlinenumber="91"><img src="https://user-images.githubusercontent.com/13536348/111077910-4c506f00-8536-11eb-917b-dd35a4bdc6bd.jpg" alt="CullingTargetProxy_Distances_Gizmo" sourcefile="index.md" sourcestartlinenumber="91" sourceendlinenumber="91"></p>
+<h2 id="a-idattach-the-culling-target-behaviour-hrefattach-the-culling-target-behaviour-2-attach-the-cullingtargetbehaviour-a" sourcefile="index.md" sourcestartlinenumber="93" sourceendlinenumber="93"><a id="attach-the-culling-target-behaviour" href="#attach-the-culling-target-behaviour"> 2. Attach the CullingTargetBehaviour </a></h2>
+<p sourcefile="index.md" sourcestartlinenumber="95" sourceendlinenumber="95"><code>CullingTargetBehaviour</code> is a component that attaches to the object to be culled.</p>
+<h4 id="1-attach-cullingtargetbehaviour-from-componentmackysoftvisionculling-group-behaviour-menu" sourcefile="index.md" sourcestartlinenumber="98" sourceendlinenumber="98">1. Attach <code>CullingTargetBehaviour</code> from <code>Component/MackySoft/Vision/Culling Group Behaviour</code> menu.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="100" sourceendlinenumber="100">Attach this component to objects that you want to show/hide depending on their visibility, or change their quality depending on their relative distance.</p>
+<p sourcefile="index.md" sourcestartlinenumber="102" sourceendlinenumber="102"><img src="https://user-images.githubusercontent.com/13536348/111072032-333ac480-851c-11eb-8821-0b4f766e1e34.jpg" alt="CullingTargetBehaviour" sourcefile="index.md" sourcestartlinenumber="102" sourceendlinenumber="102"></p>
+<h4 id="2-set-the-group-key-to-the-attached-cullinggroupbehaviour" sourcefile="index.md" sourcestartlinenumber="105" sourceendlinenumber="105">2. Set the group key to the attached <code>CullingGroupBehaviour</code>.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="107" sourceendlinenumber="108">The <code>GroupKey</code> of the <code>CullingGroupBehaviour</code> is used to find a <code>CullingGroupProxy</code> with the same key specified,
+and the <code>CullingGroupBehaviour</code> will be registered with the found <code>CullingGroupProxy</code>.</p>
+<h4 id="3-adjust-the-radius-of-cullinggroupbehaviour" sourcefile="index.md" sourcestartlinenumber="111" sourceendlinenumber="111">3. Adjust the radius of <code>CullingGroupBehaviour</code>.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="113" sourceendlinenumber="113">The bounding sphere of the <code>CullingGroupBehaviour</code> is used to calculate the visibility by the <code>CullingGroup</code>. Completely enclose the object you want to cull with the bounding sphere.</p>
+<blockquote sourcefile="index.md" sourcestartlinenumber="115" sourceendlinenumber="115"><p sourcefile="index.md" sourcestartlinenumber="115" sourceendlinenumber="115">Radius can be adjusted visually from the scene view !</p>
+</blockquote>
+<p sourcefile="index.md" sourcestartlinenumber="117" sourceendlinenumber="117"><img src="https://user-images.githubusercontent.com/13536348/111072309-57e36c00-851d-11eb-8196-8c38b2af62c1.jpg" alt="CullingTargetBehaviour_Idle" sourcefile="index.md" sourcestartlinenumber="117" sourceendlinenumber="117"></p>
+<p sourcefile="index.md" sourcestartlinenumber="119" sourceendlinenumber="119">Also, during play mode, the color changes depending on visibility.</p>
+<p sourcefile="index.md" sourcestartlinenumber="121" sourceendlinenumber="122"><img src="https://user-images.githubusercontent.com/13536348/111074733-bf061e00-8527-11eb-8e19-e6796e56c63a.jpg" height="200" title="CullingTargetBehaviour_Visible">
+<img src="https://user-images.githubusercontent.com/13536348/111074737-c6c5c280-8527-11eb-9275-220103d8d59a.jpg" height="200" title="CullingTargetBehaviour_Invisible"></p>
+<h4 id="4-select-the-boundingsphereupdatemode" sourcefile="index.md" sourcestartlinenumber="124" sourceendlinenumber="124">4. Select the <code>BoundingSphereUpdateMode</code>.</h4>
+<p sourcefile="index.md" sourcestartlinenumber="126" sourceendlinenumber="126">This is an important value for performance.</p>
+<p sourcefile="index.md" sourcestartlinenumber="128" sourceendlinenumber="128"><code>BoundingSphereUpdateMode</code> is set to <code>Dynamic</code> by default. This means that the transform of bounding sphere will be updated every frame.</p>
+<p sourcefile="index.md" sourcestartlinenumber="130" sourceendlinenumber="130">However, there are some objects that do not move. In such cases, you can avoid the extra update cost by setting the <code>BoundingSphereUpdateMode</code> to <code>Static</code>.</p>
+<h2 id="a-idreceive-callback-hrefreceive-callback-3-receive-a-callback-a" sourcefile="index.md" sourcestartlinenumber="132" sourceendlinenumber="132"><a id="receive-callback" href="#receive-callback"> 3. Receive a callback </a></h2>
+<p sourcefile="index.md" sourcestartlinenumber="134" sourceendlinenumber="134">Use <code>CullinTargetBehaviour.OnStateChanged</code> callback to respond to changes in the visibility and distance state of the bounding sphere.</p>
+<pre sourcefile="index.md" sourcestartlinenumber="136" sourceendlinenumber="157"><code class="lang-cs">using UnityEngine;
+using MackySoft.Vision;
+
+[RequireComponent(typeof(CullingTargetBehaviour))]
+public class ReceiveCallbackExample : MonoBehaviour {
+
+    void Awake () {
+        var cullingTarget = GetComponent&lt;ICullingTarget&gt;();
+        cullingTarget.OnStateChanged += OnStateChanged;
+    }
+
+    void OnStaeteChanged (CullingGroupEvent ev) {
+        if (ev.isVisible) {
+            Debug.Log(&quot;Visible!&quot;);
+        } else {
+            Debug.Log(&quot;Invisible!&quot;);
+        }
+    }
+
+}
+</code></pre><h2 id="a-idutilities-hrefutilities-utilities-a" sourcefile="index.md" sourcestartlinenumber="159" sourceendlinenumber="159"><a id="utilities" href="#utilities"> Utilities </a></h2>
+<p sourcefile="index.md" sourcestartlinenumber="161" sourceendlinenumber="161">Vision provides utility components that can be used with no coding.</p>
+<h3 id="a-idculling-target-renderers-hrefculling-target-renderers-culling-target-renderers-a" sourcefile="index.md" sourcestartlinenumber="164" sourceendlinenumber="164"><a id="culling-target-renderers" href="#culling-target-renderers"> Culling Target Renderers </a></h3>
+<p sourcefile="index.md" sourcestartlinenumber="166" sourceendlinenumber="166">Enable / Disable the specified renderer&#39;s depending on the visibility of the bounding sphere.</p>
+<p sourcefile="index.md" sourcestartlinenumber="168" sourceendlinenumber="168"><img src="https://user-images.githubusercontent.com/13536348/111073973-5cf7e980-8524-11eb-9b84-ab95c263940c.jpg" alt="CullingTargetRenderers" sourcefile="index.md" sourcestartlinenumber="168" sourceendlinenumber="168"></p>
+<h1 id="a-idauthor-info-hrefauthor-info--author-info-a" sourcefile="index.md" sourcestartlinenumber="171" sourceendlinenumber="171"><a id="author-info" href="#author-info"> 📔 Author Info </a></h1>
+<p sourcefile="index.md" sourcestartlinenumber="173" sourceendlinenumber="173">Hiroya Aramaki is a indie game developer in Japan.</p>
+<ul sourcefile="index.md" sourcestartlinenumber="175" sourceendlinenumber="176">
+<li sourcefile="index.md" sourcestartlinenumber="175" sourceendlinenumber="175">Blog: <a href="https://mackysoft.net/blog" data-raw-source="[https://mackysoft.net/blog](https://mackysoft.net/blog)" sourcefile="index.md" sourcestartlinenumber="175" sourceendlinenumber="175">https://mackysoft.net/blog</a></li>
+<li sourcefile="index.md" sourcestartlinenumber="176" sourceendlinenumber="176">Twitter: <a href="https://twitter.com/makihiro_dev" data-raw-source="[https://twitter.com/makihiro_dev](https://twitter.com/makihiro_dev)" sourcefile="index.md" sourcestartlinenumber="176" sourceendlinenumber="176">https://twitter.com/makihiro_dev</a></li>
+</ul>
+<h1 id="a-idlicense-hreflicense--license-a" sourcefile="index.md" sourcestartlinenumber="179" sourceendlinenumber="179"><a id="license" href="#license"> 📜 License </a></h1>
+<p sourcefile="index.md" sourcestartlinenumber="181" sourceendlinenumber="181">This library is under the MIT License.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/mackysoft/Vision/blob/main/Documentation/index.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            Vision
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

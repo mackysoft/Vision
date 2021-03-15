@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision", "MackySoft.Vision.csproj", "{8BA2FA2C-4211-781E-DDDD-200926FFA88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Editor", "MackySoft.Vision.Editor.csproj", "{8D9D1618-401E-0D7B-B646-57E039DE5233}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

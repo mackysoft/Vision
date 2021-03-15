@@ -1,6 +1,6 @@
 apiRules:
 - include:
-    uidRegex: ^DocFxForUnity
+    uidRegex: ^MackySoft
     type: Namespace
 - include:
     uidRegex: ^Global

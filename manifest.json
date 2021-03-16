@@ -2,6 +2,7 @@
   "sitemap": {
     "fileOptions": {
       "api/*": {
+        "baseUrl": "https://mackysoft.github.io/Vision/",
         "changefreq": "daily"
       }
     },
@@ -22,6 +23,318 @@
       "is_incremental": false
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.CullingGroupKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.CullingGroupKey.html",
+          "hash": "ujg2BDG+7LwzWGBIn5H6MA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.CullingGroupKeyDefinition.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.CullingGroupKeyDefinition.html",
+          "hash": "BdXSLhT5VipEZcdJMw1GLw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.CullingGroupProxy.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.CullingGroupProxy.html",
+          "hash": "ptOSqPD825xxJh4KqwG7KA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.CullingTargetBehaviour.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.CullingTargetBehaviour.html",
+          "hash": "fdVw1YBYi+Laxs/PWML62g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.CullingTargetsUpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.CullingTargetsUpdateMode.html",
+          "hash": "/goukdv7ipqO7h4gJuvQQw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDefinitionDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDefinitionDrawer.html",
+          "hash": "NCGd82qDg6OUZw9OytxBNw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDrawer.html",
+          "hash": "bLIAShLVpymvqZMjFavspA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.CullingGroupProxyInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.CullingGroupProxyInspector.html",
+          "hash": "pnLQlG+W7HosCyaYR7zTXw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html",
+          "hash": "3aKNFp0GM3xc8+KcrLyQxA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.VisionEditorUtility.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.VisionEditorUtility.html",
+          "hash": "8b3BC1h59E4q528kzfkgIA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.VisionPreferences.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.VisionPreferences.html",
+          "hash": "vyNCntfDKOf0Edg/uMhzUw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.VisionSettingsInspector.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.VisionSettingsInspector.html",
+          "hash": "J1qXhXrrZwp3UfyrsnCBbA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.VisionSettingsProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.VisionSettingsProvider.html",
+          "hash": "+MK1s0y0h63mtZJYX3ix6w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.html",
+          "hash": "omiIc5U+VjkT9HFCzTUjqg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.ICullingTarget.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.ICullingTarget.html",
+          "hash": "DCP9YjpRxiXzSrnZp147NQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.TransformUpdateMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.TransformUpdateMode.html",
+          "hash": "8a5DtRfvMyrdhemqh7gA8g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.CameraReference.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.CameraReference.html",
+          "hash": "oPWQZk5hr1JtygV/zkb50w=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.CameraSourceMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.CameraSourceMode.html",
+          "hash": "EtoywYMollJ5oof7zQrfgg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html",
+          "hash": "IoQidOYuK5FxjFyF0tBQtA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.CullingTargetRenderers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.CullingTargetRenderers.html",
+          "hash": "x0JB2l3JcjwRJGdZkjb6pA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.Editor.CameraReferenceDrawer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.Editor.CameraReferenceDrawer.html",
+          "hash": "gVlbMgFGw6YVWdYB2lAhXA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.Editor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.Editor.html",
+          "hash": "+35eb3pJLyR92JNSijbuEQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Utilities.html",
+          "hash": "Orb3/2J9tPf3KFO78J28gg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.VisionSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.VisionSettings.html",
+          "hash": "iiZh5Zi22zdIHrCu3XU9SA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.html",
+          "hash": "1unWXZ/0RVtpZo3igNwzZg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "a7/6TaK5PHyvnYIgnGnDDg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "index.md",
       "output": {
@@ -35,11 +348,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/coniunctis.md",
+      "source_relative_path": "manual/Manual1.md",
       "output": {
         ".html": {
-          "relative_path": "manual/coniunctis.html",
-          "hash": "efOkvAvyYoQV/0LSNrbhog=="
+          "relative_path": "manual/Manual1.html",
+          "hash": "G6K6iTsEuH0ZqP9P8Cn/1Q=="
         }
       },
       "is_incremental": false,
@@ -47,11 +360,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "manual/etiam.md",
+      "source_relative_path": "manual/Manual2.md",
       "output": {
         ".html": {
-          "relative_path": "manual/etiam.html",
-          "hash": "f1rJPgj06e1QjAt6LJr0HA=="
+          "relative_path": "manual/Manual2.html",
+          "hash": "JFNGOzRPSC972SFQAsYF/Q=="
         }
       },
       "is_incremental": false,
@@ -63,29 +376,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/toc.html",
-          "hash": "2q0qq03gpYNjYV8lSAAcVw=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleManual.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleManual.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
-      "source_relative_path": "resources/ExampleScriptingApi.png",
-      "output": {
-        "resource": {
-          "relative_path": "resources/ExampleScriptingApi.png"
+          "hash": "Ts20bi7Czur49Jop+7nCpw=="
         }
       },
       "is_incremental": false,
@@ -97,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "IcPrG9Oxm9xZ4pP6LKAnqQ=="
+          "hash": "Dxhd6OyDwFVk/lF4cClDdg=="
         }
       },
       "is_incremental": false,
@@ -121,11 +412,10 @@
           "total_file_count": 3,
           "skipped_file_count": 0
         },
-        "ResourceDocumentProcessor": {
+        "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
           "incrementalPhase": "build",
-          "total_file_count": 0,
+          "total_file_count": 25,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

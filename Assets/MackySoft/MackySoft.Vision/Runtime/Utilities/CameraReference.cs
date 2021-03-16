@@ -5,18 +5,22 @@ using UnityEngine;
 
 namespace MackySoft.Vision.Utilities {
 
-	public enum CameraSourceMode {
+	public enum CameraReferenceMode {
 		CurrentCamera = 0,
 		MainCamera = 1,
 		TaggedCamera = 2,
 		Custom = 3
 	}
 
+	/// <summary>
+	/// <para> Advanced camera reference. </para>
+	/// <para> Useful when referencing camera from multiple scenes and prefabs. </para>
+	/// </summary>
 	[Serializable]
 	public class CameraReference {
 
 		[SerializeField]
-		CameraSourceMode m_Mode = CameraSourceMode.MainCamera;
+		CameraReferenceMode m_Mode = CameraReferenceMode.MainCamera;
 		
 		[SerializeField]
 		string m_Tag = "Untagged";
@@ -26,7 +30,10 @@ namespace MackySoft.Vision.Utilities {
 
 		Camera m_CachedCamera;
 
-		public CameraSourceMode Mode {
+		/// <summary>
+		/// Method of referring to the camera.
+		/// </summary>
+		public CameraReferenceMode Mode {
 			get => m_Mode;
 			set {
 				if (m_Mode != value) {
@@ -36,20 +43,26 @@ namespace MackySoft.Vision.Utilities {
 			}
 		}
 
+		/// <summary>
+		/// A tag for referencing a camera when <see cref="Mode"/> is <see cref="CameraReferenceMode.TaggedCamera"/>.
+		/// </summary>
 		public string Tag {
 			get => m_Tag;
 			set {
-				if (m_Mode == CameraSourceMode.TaggedCamera) {
+				if (m_Mode == CameraReferenceMode.TaggedCamera) {
 					ClearCache();
 				}
 				m_Tag = value;
 			}
 		}
 
+		/// <summary>
+		/// Reference to the camera when <see cref="Mode"/> is <see cref="CameraReferenceMode.Custom"/>.
+		/// </summary>
 		public Camera CustomCamera {
 			get => m_CustomCamera;
 			set {
-				if (m_Mode == CameraSourceMode.Custom) {
+				if (m_Mode == CameraReferenceMode.Custom) {
 					ClearCache();
 				}
 				m_CustomCamera = value;
@@ -57,7 +70,7 @@ namespace MackySoft.Vision.Utilities {
 		}
 
 		/// <summary>
-		/// <para> Returns a camera based on the <see cref="CameraSourceMode"/>. </para>
+		/// <para> Returns a camera based on the <see cref="CameraReferenceMode"/>. </para>
 		/// <para> The retrieved camera will be cached. </para>
 		/// </summary>
 		public Camera Camera {
@@ -66,11 +79,11 @@ namespace MackySoft.Vision.Utilities {
 					return m_CachedCamera;
 				}
 				switch (m_Mode) {
-					case CameraSourceMode.CurrentCamera:
+					case CameraReferenceMode.CurrentCamera:
 						return m_CachedCamera = Camera.current;
-					case CameraSourceMode.MainCamera:
+					case CameraReferenceMode.MainCamera:
 						return m_CachedCamera = Camera.main;
-					case CameraSourceMode.TaggedCamera:
+					case CameraReferenceMode.TaggedCamera:
 						Camera[] allCameras = Camera.allCameras;
 						for (int i = 0;allCameras.Length > i;i++) {
 							Camera camera = allCameras[i];
@@ -79,7 +92,7 @@ namespace MackySoft.Vision.Utilities {
 							}
 						}
 						return m_CachedCamera = null;
-					case CameraSourceMode.Custom:
+					case CameraReferenceMode.Custom:
 						return m_CachedCamera = m_CustomCamera;
 					default:
 						throw new NotImplementedException();
@@ -87,21 +100,21 @@ namespace MackySoft.Vision.Utilities {
 			}
 		}
 
-		public CameraReference () : this(CameraSourceMode.MainCamera) {
+		public CameraReference () : this(CameraReferenceMode.MainCamera) {
 
 		}
 
-		public CameraReference (CameraSourceMode source) {
-			m_Mode = source;
+		public CameraReference (CameraReferenceMode mode) {
+			m_Mode = mode;
 		}
 
 		public CameraReference (Camera customCamera) {
-			m_Mode = CameraSourceMode.Custom;
+			m_Mode = CameraReferenceMode.Custom;
 			m_CustomCamera = customCamera;
 		}
 
 		public CameraReference (string tag) {
-			m_Mode = CameraSourceMode.TaggedCamera;
+			m_Mode = CameraReferenceMode.TaggedCamera;
 			m_Tag = tag;
 		}
 

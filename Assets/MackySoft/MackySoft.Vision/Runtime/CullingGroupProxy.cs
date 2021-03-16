@@ -117,8 +117,14 @@ namespace MackySoft.Vision {
 			}
 		}
 
+		/// <summary>
+		/// All culling targets.
+		/// </summary>
 		public IReadOnlyList<ICullingTarget> Targets => m_Targets;
 
+		/// <summary>
+		/// BoundingSphere of all culling targets.
+		/// </summary>
 		public IReadOnlyList<BoundingSphere> BoundingSpheres => m_BoundingSpheres;
 
 		#endregion
@@ -331,16 +337,30 @@ namespace MackySoft.Vision {
 				}
 			}
 		}
-		
+
+		/// <summary>
+		/// Get the enabled CullingGroupProxy with key.
+		/// </summary>
+		/// <param name="key"> Key to get the CullingGroupProxy. </param>
+		/// <returns> Returns a CullingGroupProxy with the same key as the specified key. </returns>
 		public static CullingGroupProxy GetGroup (CullingGroupKey key) {
 			return (key >= 0) ? m_Groups[key] : null;
 		}
 
+		/// <summary>
+		/// Try to get the enabled CullingGroupProxy with key.
+		/// </summary>
+		/// <param name="key"> Key to get the CullingGroupProxy. </param>
+		/// <param name="result"> The CullingGroupProxy with the same key as the specified key. </param>
+		/// <returns> True if the CullingGroupProxy could be got, False otherwise. </returns>
 		public static bool TryGetGroup (CullingGroupKey key,out CullingGroupProxy result) {
 			result = GetGroup(key);
 			return result != null;
 		}
 
+		/// <summary>
+		/// Call the <see cref="UpdateTargets"/> method of all CullingGroupProxy's.
+		/// </summary>
 		public static void UpdateAllGroupTargets () {
 			for (int i = 0;m_Groups.Length > i;i++) {
 				CullingGroupProxy group = m_Groups[i];

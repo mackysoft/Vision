@@ -20,8 +20,9 @@
     "build": {
         "globalMetadata": {
             "_appTitle": "Vision",
-            "_appFooter": "Vision",
-            "_enableSearch": true
+            "_appFooter": "Vision - CullingGroup for everyone",
+            "_enableSearch": true,
+            "_enableNewTab": true
         },
         "content": [
             {

@@ -78,6 +78,9 @@ namespace MackySoft.Vision {
 
 		#region Events
 
+		/// <summary>
+		/// Sets the callback that will be called when a sphere visibility and/or distance state has changed.
+		/// </summary>
 		public CullingGroup.StateChanged OnStateChanged { get; set; }
 
 		#endregion
@@ -115,10 +118,18 @@ namespace MackySoft.Vision {
 
 		#endregion
 
+		/// <summary>
+		/// Returns true if the bounding sphere is currently visible from any of the contributing cameras.
+		/// </summary>
+		/// <returns> True if the bounding sphere is visible, false if it is invisible. </returns>
 		public bool IsVisible () {
 			return (m_Group == null) || m_Group.IsVisible(this);
 		}
 
+		/// <summary>
+		/// Get the current distance band index of the bounding sphere.
+		/// </summary>
+		/// <returns> The sphere current distance band index. </returns>
 		public int GetDistance () {
 			return (m_Group != null) ? m_Group.GetDistance(this) : -1;
 		}

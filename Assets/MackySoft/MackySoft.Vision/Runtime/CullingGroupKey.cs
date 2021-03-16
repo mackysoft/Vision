@@ -5,6 +5,10 @@ using UnityEngine;
 
 namespace MackySoft.Vision {
 
+	/// <summary>
+	/// <para> Definition of <see cref="CullingGroupKey"/>. It can be defined in <see cref="VisionSettings"/>. </para>
+	/// <para> Basically, it is not used directly by the user. </para>
+	/// </summary>
 	[Serializable]
 	public class CullingGroupKeyDefinition {
 
@@ -13,19 +17,18 @@ namespace MackySoft.Vision {
 
 		public string Name { get => m_Name; set => m_Name = value; }
 
-		public CullingGroupKeyDefinition () : this(string.Empty) {
-
-		}
-
-		public CullingGroupKeyDefinition (string name) {
-			m_Name = name;
-		}
-
 	}
 
+	/// <summary>
+	/// <para> Key to find the <see cref="CullingGroupProxy"/>. The essence of a key is an index. </para>
+	/// <para> The keys are defined in <see cref="VisionSettings"/>. </para>
+	/// </summary>
 	[Serializable]
 	public struct CullingGroupKey : IEquatable<CullingGroupKey> {
 
+		/// <summary>
+		/// Key with index -1.
+		/// </summary>
 		public static readonly CullingGroupKey None = new CullingGroupKey(-1);
 
 		[SerializeField]

@@ -2,13 +2,23 @@ using UnityEngine;
 
 namespace MackySoft.Vision {
 
+	/// <summary>
+	/// <para> When to update the transform. </para>
+	/// </summary>
 	public enum TransformUpdateMode {
+		/// <summary>
+		/// Transform an always updated.
+		/// </summary>
 		Dynamic = 0,
+
+		/// <summary>
+		/// Transform is updated by the first update or by explicitly calling the update method.
+		/// </summary>
 		Static = 1
 	}
 
 	public interface ICullingTarget {
-
+		
 		/// <summary>
 		/// <para> When to update the bounding sphere transform. </para>
 		/// </summary>

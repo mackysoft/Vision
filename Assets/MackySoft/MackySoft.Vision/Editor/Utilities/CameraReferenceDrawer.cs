@@ -14,8 +14,8 @@ namespace MackySoft.Vision.Utilities.Editor {
 			SerializedProperty mode = property.FindPropertyRelative("m_Mode");
 
 			if (!mode.hasMultipleDifferentValues) {
-				switch ((CameraSourceMode)mode.enumValueIndex) {
-					case CameraSourceMode.TaggedCamera:
+				switch ((CameraReferenceMode)mode.enumValueIndex) {
+					case CameraReferenceMode.TaggedCamera:
 						position.width *= 0.5f;
 						EditorGUI.PropertyField(new Rect(position.xMin,position.yMin,position.width,position.height),mode,GUIContent.none);
 						SerializedProperty tag = property.FindPropertyRelative("m_Tag");
@@ -24,7 +24,7 @@ namespace MackySoft.Vision.Utilities.Editor {
 						tag.stringValue = EditorGUI.TagField(new Rect(position.xMin + position.width,position.yMin,position.width,position.height),GUIContent.none,tag.stringValue);
 						EditorGUI.showMixedValue = false;
 						break;
-					case CameraSourceMode.Custom:
+					case CameraReferenceMode.Custom:
 						position.width *= 0.5f;
 						EditorGUI.PropertyField(new Rect(position.xMin,position.yMin,position.width,position.height),mode,GUIContent.none);
 						SerializedProperty customCamera = property.FindPropertyRelative("m_CustomCamera");

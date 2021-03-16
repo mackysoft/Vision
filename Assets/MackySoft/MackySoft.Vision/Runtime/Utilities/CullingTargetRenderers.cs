@@ -17,6 +17,9 @@ namespace MackySoft.Vision.Utilities {
 
 		ICullingTarget m_CullingTarget;
 
+		/// <summary>
+		/// A renderer's to enable/disable.
+		/// </summary>
 		public Renderer[] Renderers {
 			get => m_Renderers;
 			set => m_Renderers = value;

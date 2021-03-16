@@ -20,7 +20,7 @@
     <meta property="docfx:tocrel" content="toc.html">
     
     <meta property="docfx:rel" content="../">
-    
+    <meta property="docfx:newtab" content="true">
   </head>
   <body data-spy="scroll" data-target="#affix" data-offset="120">
     <div id="wrapper">
@@ -83,7 +83,9 @@
   
   <h1 id="MackySoft_Vision_Utilities_CameraReference" data-uid="MackySoft.Vision.Utilities.CameraReference" class="text-break">Class CameraReference
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p> Advanced camera reference. </p>
+<p> Useful when referencing camera from multiple scenes and prefabs. </p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
@@ -138,12 +140,12 @@
   
   
   <a id="MackySoft_Vision_Utilities_CameraReference__ctor_" data-uid="MackySoft.Vision.Utilities.CameraReference.#ctor*"></a>
-  <h4 id="MackySoft_Vision_Utilities_CameraReference__ctor_MackySoft_Vision_Utilities_CameraSourceMode_" data-uid="MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraSourceMode)">CameraReference(CameraSourceMode)</h4>
+  <h4 id="MackySoft_Vision_Utilities_CameraReference__ctor_MackySoft_Vision_Utilities_CameraReferenceMode_" data-uid="MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraReferenceMode)">CameraReference(CameraReferenceMode)</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CameraReference(CameraSourceMode source)</code></pre>
+    <pre><code class="lang-csharp hljs">public CameraReference(CameraReferenceMode mode)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -156,8 +158,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MackySoft.Vision.Utilities.CameraSourceMode.html">CameraSourceMode</a></td>
-        <td><span class="parametername">source</span></td>
+        <td><a class="xref" href="MackySoft.Vision.Utilities.CameraReferenceMode.html">CameraReferenceMode</a></td>
+        <td><span class="parametername">mode</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -195,7 +197,7 @@
   
   <a id="MackySoft_Vision_Utilities_CameraReference_Camera_" data-uid="MackySoft.Vision.Utilities.CameraReference.Camera*"></a>
   <h4 id="MackySoft_Vision_Utilities_CameraReference_Camera" data-uid="MackySoft.Vision.Utilities.CameraReference.Camera">Camera</h4>
-  <div class="markdown level1 summary"><p> Returns a camera based on the <a class="xref" href="MackySoft.Vision.Utilities.CameraSourceMode.html">CameraSourceMode</a>. </p>
+  <div class="markdown level1 summary"><p> Returns a camera based on the <a class="xref" href="MackySoft.Vision.Utilities.CameraReferenceMode.html">CameraReferenceMode</a>. </p>
 <p> The retrieved camera will be cached. </p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -222,7 +224,8 @@
   
   <a id="MackySoft_Vision_Utilities_CameraReference_CustomCamera_" data-uid="MackySoft.Vision.Utilities.CameraReference.CustomCamera*"></a>
   <h4 id="MackySoft_Vision_Utilities_CameraReference_CustomCamera" data-uid="MackySoft.Vision.Utilities.CameraReference.CustomCamera">CustomCamera</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reference to the camera when <a class="xref" href="MackySoft.Vision.Utilities.CameraReference.html#MackySoft_Vision_Utilities_CameraReference_Mode">Mode</a> is <a class="xref" href="MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_Custom">Custom</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -247,11 +250,12 @@
   
   <a id="MackySoft_Vision_Utilities_CameraReference_Mode_" data-uid="MackySoft.Vision.Utilities.CameraReference.Mode*"></a>
   <h4 id="MackySoft_Vision_Utilities_CameraReference_Mode" data-uid="MackySoft.Vision.Utilities.CameraReference.Mode">Mode</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Method of referring to the camera.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public CameraSourceMode Mode { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public CameraReferenceMode Mode { get; set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -263,7 +267,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="MackySoft.Vision.Utilities.CameraSourceMode.html">CameraSourceMode</a></td>
+        <td><a class="xref" href="MackySoft.Vision.Utilities.CameraReferenceMode.html">CameraReferenceMode</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -272,7 +276,8 @@
   
   <a id="MackySoft_Vision_Utilities_CameraReference_Tag_" data-uid="MackySoft.Vision.Utilities.CameraReference.Tag*"></a>
   <h4 id="MackySoft_Vision_Utilities_CameraReference_Tag" data-uid="MackySoft.Vision.Utilities.CameraReference.Tag">Tag</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>A tag for referencing a camera when <a class="xref" href="MackySoft.Vision.Utilities.CameraReference.html#MackySoft_Vision_Utilities_CameraReference_Mode">Mode</a> is <a class="xref" href="MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_TaggedCamera">TaggedCamera</a>.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -375,7 +380,7 @@
             <span class="pull-right">
               <a href="#top">Back to top</a>
             </span>
-            Vision
+            Vision - CullingGroup for everyone
             
           </div>
         </div>

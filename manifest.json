@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.CullingGroupKey.html",
-          "hash": "ujg2BDG+7LwzWGBIn5H6MA=="
+          "hash": "/ssGEBRtVCRK2ZQDG3pyqw=="
         }
       },
       "is_incremental": false,
@@ -40,7 +40,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.CullingGroupKeyDefinition.html",
-          "hash": "BdXSLhT5VipEZcdJMw1GLw=="
+          "hash": "cYP3RSoigBDCHHnDcfuHcg=="
         }
       },
       "is_incremental": false,
@@ -52,7 +52,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.CullingGroupProxy.html",
-          "hash": "ptOSqPD825xxJh4KqwG7KA=="
+          "hash": "EFiP2NpDWMmr7aaK3N9K8A=="
         }
       },
       "is_incremental": false,
@@ -64,7 +64,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.CullingTargetBehaviour.html",
-          "hash": "fdVw1YBYi+Laxs/PWML62g=="
+          "hash": "MnxxQG3eITZwLzGu7ejY0Q=="
         }
       },
       "is_incremental": false,
@@ -76,7 +76,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.CullingTargetsUpdateMode.html",
-          "hash": "/goukdv7ipqO7h4gJuvQQw=="
+          "hash": "tIW136ycVm+w6bOPrLAf0w=="
         }
       },
       "is_incremental": false,
@@ -88,7 +88,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDefinitionDrawer.html",
-          "hash": "NCGd82qDg6OUZw9OytxBNw=="
+          "hash": "ox2qJ1G7JCt1766+mU1MRg=="
         }
       },
       "is_incremental": false,
@@ -100,7 +100,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.CullingGroupKeyDrawer.html",
-          "hash": "bLIAShLVpymvqZMjFavspA=="
+          "hash": "vubG+AMCg/CcwxNn2FB0IQ=="
         }
       },
       "is_incremental": false,
@@ -112,7 +112,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.CullingGroupProxyInspector.html",
-          "hash": "pnLQlG+W7HosCyaYR7zTXw=="
+          "hash": "8OtxNRLDXDQfnOWEHb1SIg=="
         }
       },
       "is_incremental": false,
@@ -124,7 +124,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html",
-          "hash": "3aKNFp0GM3xc8+KcrLyQxA=="
+          "hash": "x6nu85BUwyHpdvsgqtDxAQ=="
         }
       },
       "is_incremental": false,
@@ -136,7 +136,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.VisionEditorUtility.html",
-          "hash": "8b3BC1h59E4q528kzfkgIA=="
+          "hash": "K7jbTEUJPqqEQ7OUa6Mc3g=="
         }
       },
       "is_incremental": false,
@@ -148,7 +148,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.VisionPreferences.html",
-          "hash": "vyNCntfDKOf0Edg/uMhzUw=="
+          "hash": "aJVVGsoQL9e5kA8GaJLnfA=="
         }
       },
       "is_incremental": false,
@@ -160,7 +160,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.VisionSettingsInspector.html",
-          "hash": "J1qXhXrrZwp3UfyrsnCBbA=="
+          "hash": "u9FjheIcGwi9NyqxVmqVwg=="
         }
       },
       "is_incremental": false,
@@ -172,7 +172,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.VisionSettingsProvider.html",
-          "hash": "+MK1s0y0h63mtZJYX3ix6w=="
+          "hash": "bS7+amA9M8dFLyYxfwIv2Q=="
         }
       },
       "is_incremental": false,
@@ -184,7 +184,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Editor.html",
-          "hash": "omiIc5U+VjkT9HFCzTUjqg=="
+          "hash": "lZIFdRYIt6pAZjDQZjgBng=="
         }
       },
       "is_incremental": false,
@@ -196,7 +196,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.ICullingTarget.html",
-          "hash": "DCP9YjpRxiXzSrnZp147NQ=="
+          "hash": "Ze9jNt74PE2w1/LbT4+l7w=="
         }
       },
       "is_incremental": false,
@@ -208,7 +208,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.TransformUpdateMode.html",
-          "hash": "8a5DtRfvMyrdhemqh7gA8g=="
+          "hash": "bkLr7+mJb4eeVo10DzBh+g=="
         }
       },
       "is_incremental": false,
@@ -220,7 +220,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.CameraReference.html",
-          "hash": "oPWQZk5hr1JtygV/zkb50w=="
+          "hash": "V4x4WlJLQTTpUr66HcwFQA=="
         }
       },
       "is_incremental": false,
@@ -228,11 +228,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/MackySoft.Vision.Utilities.CameraSourceMode.yml",
+      "source_relative_path": "api/MackySoft.Vision.Utilities.CameraReferenceMode.yml",
       "output": {
         ".html": {
-          "relative_path": "api/MackySoft.Vision.Utilities.CameraSourceMode.html",
-          "hash": "EtoywYMollJ5oof7zQrfgg=="
+          "relative_path": "api/MackySoft.Vision.Utilities.CameraReferenceMode.html",
+          "hash": "u/htG/3h90ezZIen/YKoTg=="
         }
       },
       "is_incremental": false,
@@ -244,7 +244,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html",
-          "hash": "IoQidOYuK5FxjFyF0tBQtA=="
+          "hash": "vvfDHbjjOsN4KbtZ9VsLMA=="
         }
       },
       "is_incremental": false,
@@ -256,7 +256,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.CullingTargetRenderers.html",
-          "hash": "x0JB2l3JcjwRJGdZkjb6pA=="
+          "hash": "JOpM9O1oDCy4ULV5VTAXJQ=="
         }
       },
       "is_incremental": false,
@@ -268,7 +268,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.Editor.CameraReferenceDrawer.html",
-          "hash": "gVlbMgFGw6YVWdYB2lAhXA=="
+          "hash": "xtRrOY45zIK5qzJSAo5zpw=="
         }
       },
       "is_incremental": false,
@@ -280,7 +280,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.Editor.html",
-          "hash": "+35eb3pJLyR92JNSijbuEQ=="
+          "hash": "7aHeJRkMA4eMDTnPTU/CvA=="
         }
       },
       "is_incremental": false,
@@ -292,7 +292,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.Utilities.html",
-          "hash": "Orb3/2J9tPf3KFO78J28gg=="
+          "hash": "8FsdlnPsyVo3KN3eNZ7+qA=="
         }
       },
       "is_incremental": false,
@@ -304,7 +304,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.VisionSettings.html",
-          "hash": "iiZh5Zi22zdIHrCu3XU9SA=="
+          "hash": "854FmBuA01nzSp5vPrSNbg=="
         }
       },
       "is_incremental": false,
@@ -316,7 +316,7 @@
       "output": {
         ".html": {
           "relative_path": "api/MackySoft.Vision.html",
-          "hash": "1unWXZ/0RVtpZo3igNwzZg=="
+          "hash": "9GoBRRl/KUM6SCfx5R9o8g=="
         }
       },
       "is_incremental": false,
@@ -328,7 +328,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "a7/6TaK5PHyvnYIgnGnDDg=="
+          "hash": "WVV1lay2cotL/jkpjGwr/A=="
         }
       },
       "is_incremental": false,
@@ -340,7 +340,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9EuEAT14JJuowyKGfPh9YQ=="
+          "hash": "QAaysnv4uZtKpSxuSyzJqg=="
         }
       },
       "is_incremental": false,
@@ -352,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Manual1.html",
-          "hash": "G6K6iTsEuH0ZqP9P8Cn/1Q=="
+          "hash": "wRcmEENV1Ry+HhyqzmscsQ=="
         }
       },
       "is_incremental": false,
@@ -364,7 +364,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/Manual2.html",
-          "hash": "JFNGOzRPSC972SFQAsYF/Q=="
+          "hash": "F+pd47j1d1w3p25wapXlYg=="
         }
       },
       "is_incremental": false,

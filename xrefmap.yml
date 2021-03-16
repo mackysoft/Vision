@@ -124,25 +124,6 @@ references:
   commentId: T:MackySoft.Vision.CullingGroupKeyDefinition
   fullName: MackySoft.Vision.CullingGroupKeyDefinition
   nameWithType: CullingGroupKeyDefinition
-- uid: MackySoft.Vision.CullingGroupKeyDefinition.#ctor
-  name: CullingGroupKeyDefinition()
-  href: api/MackySoft.Vision.CullingGroupKeyDefinition.html#MackySoft_Vision_CullingGroupKeyDefinition__ctor
-  commentId: M:MackySoft.Vision.CullingGroupKeyDefinition.#ctor
-  fullName: MackySoft.Vision.CullingGroupKeyDefinition.CullingGroupKeyDefinition()
-  nameWithType: CullingGroupKeyDefinition.CullingGroupKeyDefinition()
-- uid: MackySoft.Vision.CullingGroupKeyDefinition.#ctor(System.String)
-  name: CullingGroupKeyDefinition(String)
-  href: api/MackySoft.Vision.CullingGroupKeyDefinition.html#MackySoft_Vision_CullingGroupKeyDefinition__ctor_System_String_
-  commentId: M:MackySoft.Vision.CullingGroupKeyDefinition.#ctor(System.String)
-  fullName: MackySoft.Vision.CullingGroupKeyDefinition.CullingGroupKeyDefinition(System.String)
-  nameWithType: CullingGroupKeyDefinition.CullingGroupKeyDefinition(String)
-- uid: MackySoft.Vision.CullingGroupKeyDefinition.#ctor*
-  name: CullingGroupKeyDefinition
-  href: api/MackySoft.Vision.CullingGroupKeyDefinition.html#MackySoft_Vision_CullingGroupKeyDefinition__ctor_
-  commentId: Overload:MackySoft.Vision.CullingGroupKeyDefinition.#ctor
-  isSpec: "True"
-  fullName: MackySoft.Vision.CullingGroupKeyDefinition.CullingGroupKeyDefinition
-  nameWithType: CullingGroupKeyDefinition.CullingGroupKeyDefinition
 - uid: MackySoft.Vision.CullingGroupKeyDefinition.Name
   name: Name
   href: api/MackySoft.Vision.CullingGroupKeyDefinition.html#MackySoft_Vision_CullingGroupKeyDefinition_Name
@@ -1001,12 +982,12 @@ references:
   commentId: M:MackySoft.Vision.Utilities.CameraReference.#ctor(Camera)
   fullName: MackySoft.Vision.Utilities.CameraReference.CameraReference(Camera)
   nameWithType: CameraReference.CameraReference(Camera)
-- uid: MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraSourceMode)
-  name: CameraReference(CameraSourceMode)
-  href: api/MackySoft.Vision.Utilities.CameraReference.html#MackySoft_Vision_Utilities_CameraReference__ctor_MackySoft_Vision_Utilities_CameraSourceMode_
-  commentId: M:MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraSourceMode)
-  fullName: MackySoft.Vision.Utilities.CameraReference.CameraReference(MackySoft.Vision.Utilities.CameraSourceMode)
-  nameWithType: CameraReference.CameraReference(CameraSourceMode)
+- uid: MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraReferenceMode)
+  name: CameraReference(CameraReferenceMode)
+  href: api/MackySoft.Vision.Utilities.CameraReference.html#MackySoft_Vision_Utilities_CameraReference__ctor_MackySoft_Vision_Utilities_CameraReferenceMode_
+  commentId: M:MackySoft.Vision.Utilities.CameraReference.#ctor(MackySoft.Vision.Utilities.CameraReferenceMode)
+  fullName: MackySoft.Vision.Utilities.CameraReference.CameraReference(MackySoft.Vision.Utilities.CameraReferenceMode)
+  nameWithType: CameraReference.CameraReference(CameraReferenceMode)
 - uid: MackySoft.Vision.Utilities.CameraReference.#ctor(System.String)
   name: CameraReference(String)
   href: api/MackySoft.Vision.Utilities.CameraReference.html#MackySoft_Vision_Utilities_CameraReference__ctor_System_String_
@@ -1104,42 +1085,94 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Utilities.CameraReference.Tag
   nameWithType: CameraReference.Tag
-- uid: MackySoft.Vision.Utilities.CameraSourceMode
-  name: CameraSourceMode
-  href: api/MackySoft.Vision.Utilities.CameraSourceMode.html
-  commentId: T:MackySoft.Vision.Utilities.CameraSourceMode
-  fullName: MackySoft.Vision.Utilities.CameraSourceMode
-  nameWithType: CameraSourceMode
-- uid: MackySoft.Vision.Utilities.CameraSourceMode.CurrentCamera
+- uid: MackySoft.Vision.Utilities.CameraReferenceMode
+  name: CameraReferenceMode
+  href: api/MackySoft.Vision.Utilities.CameraReferenceMode.html
+  commentId: T:MackySoft.Vision.Utilities.CameraReferenceMode
+  fullName: MackySoft.Vision.Utilities.CameraReferenceMode
+  nameWithType: CameraReferenceMode
+- uid: MackySoft.Vision.Utilities.CameraReferenceMode.CurrentCamera
   name: CurrentCamera
-  href: api/MackySoft.Vision.Utilities.CameraSourceMode.html#MackySoft_Vision_Utilities_CameraSourceMode_CurrentCamera
-  commentId: F:MackySoft.Vision.Utilities.CameraSourceMode.CurrentCamera
-  fullName: MackySoft.Vision.Utilities.CameraSourceMode.CurrentCamera
-  nameWithType: CameraSourceMode.CurrentCamera
-- uid: MackySoft.Vision.Utilities.CameraSourceMode.Custom
+  href: api/MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_CurrentCamera
+  commentId: F:MackySoft.Vision.Utilities.CameraReferenceMode.CurrentCamera
+  fullName: MackySoft.Vision.Utilities.CameraReferenceMode.CurrentCamera
+  nameWithType: CameraReferenceMode.CurrentCamera
+- uid: MackySoft.Vision.Utilities.CameraReferenceMode.Custom
   name: Custom
-  href: api/MackySoft.Vision.Utilities.CameraSourceMode.html#MackySoft_Vision_Utilities_CameraSourceMode_Custom
-  commentId: F:MackySoft.Vision.Utilities.CameraSourceMode.Custom
-  fullName: MackySoft.Vision.Utilities.CameraSourceMode.Custom
-  nameWithType: CameraSourceMode.Custom
-- uid: MackySoft.Vision.Utilities.CameraSourceMode.MainCamera
+  href: api/MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_Custom
+  commentId: F:MackySoft.Vision.Utilities.CameraReferenceMode.Custom
+  fullName: MackySoft.Vision.Utilities.CameraReferenceMode.Custom
+  nameWithType: CameraReferenceMode.Custom
+- uid: MackySoft.Vision.Utilities.CameraReferenceMode.MainCamera
   name: MainCamera
-  href: api/MackySoft.Vision.Utilities.CameraSourceMode.html#MackySoft_Vision_Utilities_CameraSourceMode_MainCamera
-  commentId: F:MackySoft.Vision.Utilities.CameraSourceMode.MainCamera
-  fullName: MackySoft.Vision.Utilities.CameraSourceMode.MainCamera
-  nameWithType: CameraSourceMode.MainCamera
-- uid: MackySoft.Vision.Utilities.CameraSourceMode.TaggedCamera
+  href: api/MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_MainCamera
+  commentId: F:MackySoft.Vision.Utilities.CameraReferenceMode.MainCamera
+  fullName: MackySoft.Vision.Utilities.CameraReferenceMode.MainCamera
+  nameWithType: CameraReferenceMode.MainCamera
+- uid: MackySoft.Vision.Utilities.CameraReferenceMode.TaggedCamera
   name: TaggedCamera
-  href: api/MackySoft.Vision.Utilities.CameraSourceMode.html#MackySoft_Vision_Utilities_CameraSourceMode_TaggedCamera
-  commentId: F:MackySoft.Vision.Utilities.CameraSourceMode.TaggedCamera
-  fullName: MackySoft.Vision.Utilities.CameraSourceMode.TaggedCamera
-  nameWithType: CameraSourceMode.TaggedCamera
+  href: api/MackySoft.Vision.Utilities.CameraReferenceMode.html#MackySoft_Vision_Utilities_CameraReferenceMode_TaggedCamera
+  commentId: F:MackySoft.Vision.Utilities.CameraReferenceMode.TaggedCamera
+  fullName: MackySoft.Vision.Utilities.CameraReferenceMode.TaggedCamera
+  nameWithType: CameraReferenceMode.TaggedCamera
 - uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter
   name: CullingGroupTargetCameraSetter
   href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html
   commentId: T:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter
   fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter
   nameWithType: CullingGroupTargetCameraSetter
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey
+  name: GroupKey
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_GroupKey
+  commentId: P:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey
+  nameWithType: CullingGroupTargetCameraSetter.GroupKey
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey*
+  name: GroupKey
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_GroupKey_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.GroupKey
+  nameWithType: CullingGroupTargetCameraSetter.GroupKey
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link
+  name: Link()
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_Link
+  commentId: M:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link()
+  nameWithType: CullingGroupTargetCameraSetter.Link()
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link*
+  name: Link
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_Link_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.Link
+  nameWithType: CullingGroupTargetCameraSetter.Link
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+  name: LinkOnEnableOrStart
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_LinkOnEnableOrStart
+  commentId: P:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+  nameWithType: CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart*
+  name: LinkOnEnableOrStart
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_LinkOnEnableOrStart_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+  nameWithType: CullingGroupTargetCameraSetter.LinkOnEnableOrStart
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
+  name: TargetCamera
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_TargetCamera
+  commentId: P:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
+  nameWithType: CullingGroupTargetCameraSetter.TargetCamera
+- uid: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera*
+  name: TargetCamera
+  href: api/MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.html#MackySoft_Vision_Utilities_CullingGroupTargetCameraSetter_TargetCamera_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
+  nameWithType: CullingGroupTargetCameraSetter.TargetCamera
 - uid: MackySoft.Vision.Utilities.CullingTargetRenderers
   name: CullingTargetRenderers
   href: api/MackySoft.Vision.Utilities.CullingTargetRenderers.html

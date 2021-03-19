@@ -56,17 +56,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\ICullingTarget.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\RuntimeHelpers.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Utilities\CameraReference.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\VisionSettings.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\TemporaryArray.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\ArrayPoolUtility.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Utilities\CullingTargetRenderers.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\CullingGroupKey.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\ArrayPool.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Utilities\CullingGroupTargetCameraSetter.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\CullingTargetBehaviour.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\ICullingTarget.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\RuntimeHelpers.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\VisionSettings.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Internal\TemporaryArray.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\Utilities\CullingTargetRenderers.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\CullingGroupKey.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Runtime\CullingGroupProxy.cs" />
   </ItemGroup>
   <ItemGroup>

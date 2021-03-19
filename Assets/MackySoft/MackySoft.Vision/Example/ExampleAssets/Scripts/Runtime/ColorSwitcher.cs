@@ -2,13 +2,13 @@ using UnityEngine;
 
 namespace MackySoft.Vision.Example {
 
-	[AddComponentMenu("MackySoft/Vision/Example/Material Switcher")]
-	[HelpURL("https://github.com/mackysoft/Vision")]
-	[RequireComponent(typeof(CullingTargetBehaviour))]
-    public class MaterialSwitcher : MonoBehaviour {
+    [AddComponentMenu("MackySoft/Vision/Example/Color Switcher")]
+    [HelpURL("https://github.com/mackysoft/Vision")]
+    [RequireComponent(typeof(CullingTargetBehaviour))]
+    public class ColorSwitcher : MonoBehaviour {
 
-        [SerializeField]
-        Material[] m_Materials;
+		[SerializeField]
+		Color[] m_Colors;
 
 		ICullingTarget m_CullingTarget;
 		Renderer[] m_Renderers;
@@ -27,11 +27,10 @@ namespace MackySoft.Vision.Example {
 		}
 
 		void OnStateChanged (CullingGroupEvent ev) {
-			Material targetMaterial = m_Materials[ev.currentDistance];
+			Color targetColor = m_Colors[ev.currentDistance];
 			for (int i = 0;m_Renderers.Length > i;i++) {
-				m_Renderers[i].sharedMaterial = targetMaterial;
+				m_Renderers[i].material.color = targetColor;
 			}
 		}
-
 	}
 }

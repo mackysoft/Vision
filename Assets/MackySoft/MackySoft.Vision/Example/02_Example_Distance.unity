@@ -406,14 +406,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 983471484}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7a97971424c7504598243d999483d78, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f13e055f78663840af8f4493c7554a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Materials:
-  - {fileID: 2100000, guid: 61a816f4d3278624bb0f082ee8e4a87e, type: 2}
-  - {fileID: 2100000, guid: 13c285ac0a232884e897989e355c7763, type: 2}
-  - {fileID: 2100000, guid: f77c315af2bb4444e80e5d47aadfb3ce, type: 2}
-  - {fileID: 2100000, guid: 727ce35c8711ba3419245fdf174d5f53, type: 2}
+  m_Colors:
+  - {r: 0, g: 1, b: 0, a: 1}
+  - {r: 0, g: 0, b: 1, a: 1}
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1165566425
 GameObject:
   m_ObjectHideFlags: 0

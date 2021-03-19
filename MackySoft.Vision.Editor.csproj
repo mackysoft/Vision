@@ -57,14 +57,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingTargetBehaviourInspector.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionEditorUtility.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupKeyDefinitionDrawer.cs" />
-    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionPreferences.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionSettingsInspector.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupKeyDrawer.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\Utilities\CameraReferenceDrawer.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionSettingsInitializer.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionSettingsProvider.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionEditorUtility.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupKeyDefinitionDrawer.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionPreferences.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupProxyInspector.cs" />
   </ItemGroup>
   <ItemGroup>

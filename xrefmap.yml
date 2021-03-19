@@ -590,6 +590,19 @@ references:
   commentId: T:MackySoft.Vision.Editor.CullingGroupProxyInspector
   fullName: MackySoft.Vision.Editor.CullingGroupProxyInspector
   nameWithType: CullingGroupProxyInspector
+- uid: MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles(MackySoft.Vision.CullingGroupProxy)
+  name: DrawHandles(CullingGroupProxy)
+  href: api/MackySoft.Vision.Editor.CullingGroupProxyInspector.html#MackySoft_Vision_Editor_CullingGroupProxyInspector_DrawHandles_MackySoft_Vision_CullingGroupProxy_
+  commentId: M:MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles(MackySoft.Vision.CullingGroupProxy)
+  fullName: MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles(MackySoft.Vision.CullingGroupProxy)
+  nameWithType: CullingGroupProxyInspector.DrawHandles(CullingGroupProxy)
+- uid: MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles*
+  name: DrawHandles
+  href: api/MackySoft.Vision.Editor.CullingGroupProxyInspector.html#MackySoft_Vision_Editor_CullingGroupProxyInspector_DrawHandles_
+  commentId: Overload:MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.CullingGroupProxyInspector.DrawHandles
+  nameWithType: CullingGroupProxyInspector.DrawHandles
 - uid: MackySoft.Vision.Editor.CullingGroupProxyInspector.OnInspectorGUI
   name: OnInspectorGUI()
   href: api/MackySoft.Vision.Editor.CullingGroupProxyInspector.html#MackySoft_Vision_Editor_CullingGroupProxyInspector_OnInspectorGUI
@@ -609,6 +622,25 @@ references:
   commentId: T:MackySoft.Vision.Editor.CullingTargetBehaviourInspector
   fullName: MackySoft.Vision.Editor.CullingTargetBehaviourInspector
   nameWithType: CullingTargetBehaviourInspector
+- uid: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.CullingTargetBehaviour)
+  name: DrawHandles(CullingTargetBehaviour)
+  href: api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html#MackySoft_Vision_Editor_CullingTargetBehaviourInspector_DrawHandles_MackySoft_Vision_CullingTargetBehaviour_
+  commentId: M:MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.CullingTargetBehaviour)
+  fullName: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.CullingTargetBehaviour)
+  nameWithType: CullingTargetBehaviourInspector.DrawHandles(CullingTargetBehaviour)
+- uid: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.ICullingTarget)
+  name: DrawHandles(ICullingTarget)
+  href: api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html#MackySoft_Vision_Editor_CullingTargetBehaviourInspector_DrawHandles_MackySoft_Vision_ICullingTarget_
+  commentId: M:MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.ICullingTarget)
+  fullName: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles(MackySoft.Vision.ICullingTarget)
+  nameWithType: CullingTargetBehaviourInspector.DrawHandles(ICullingTarget)
+- uid: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles*
+  name: DrawHandles
+  href: api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html#MackySoft_Vision_Editor_CullingTargetBehaviourInspector_DrawHandles_
+  commentId: Overload:MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.DrawHandles
+  nameWithType: CullingTargetBehaviourInspector.DrawHandles
 - uid: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.OnInspectorGUI
   name: OnInspectorGUI()
   href: api/MackySoft.Vision.Editor.CullingTargetBehaviourInspector.html#MackySoft_Vision_Editor_CullingTargetBehaviourInspector_OnInspectorGUI

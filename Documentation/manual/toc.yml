@@ -1,4 +1,4 @@
-- name: Manual 1
-  href: Manual1.md
-- name: Manual 2
-  href: Manual2.md
+- name: Get Started
+  href: get-started.md
+- name: Example Scenes
+  href: example.md

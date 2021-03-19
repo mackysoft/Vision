@@ -7,36 +7,25 @@ namespace MackySoft.Vision.Editor {
 	[CanEditMultipleObjects]
 	public class CullingTargetBehaviourInspector : UnityEditor.Editor {
 
-		const string k_InfoStateKey = "Vision_CullingTargetBehaviour_Info";
-
-		CullingTargetBehaviour[] m_CullingTargets;
-		Transform[] m_Transforms;
-
-		SerializedProperty m_GroupKey;
-		SerializedProperty m_BoundingSphereUpdateMode;
-		SerializedProperty m_Radius;
-
-		bool m_IsInfoExpanded;
-
-		void OnEnable () {
-			m_CullingTargets = new CullingTargetBehaviour[targets.Length];
-			m_Transforms = new Transform[targets.Length];
-			for (int i = 0;targets.Length > i;i++) {
-				var cullingTarget = (CullingTargetBehaviour)targets[i];
-				m_CullingTargets[i] = cullingTarget;
-				m_Transforms[i] = cullingTarget.transform;
+		public static void DrawHandles (ICullingTarget cullingTarget) {
+			if (cullingTarget == null) {
+				return;
 			}
+			if (cullingTarget is CullingTargetBehaviour cullingTargetBehaviour) {
+				DrawHandles(cullingTargetBehaviour);
+			} else {
+				BoundingSphere boundingSphere = cullingTarget.BoundingSphere;
 
-			m_GroupKey = serializedObject.FindProperty("m_GroupKey");
-			m_BoundingSphereUpdateMode = serializedObject.FindProperty("m_BoundingSphereUpdateMode");
-			m_Radius = serializedObject.FindProperty("m_Radius");
-
-			m_IsInfoExpanded = SessionState.GetBool(k_InfoStateKey,false);
+				Handles.color = GetRadiusHandleColor(cullingTarget);
+				Gizmos.DrawWireSphere(
+					boundingSphere.position,
+					boundingSphere.radius
+				);
+			}
 		}
 
-		void OnSceneGUI () {
-			var cullingTarget = (CullingTargetBehaviour)target;
-			if (!cullingTarget.enabled) {
+		public static void DrawHandles (CullingTargetBehaviour cullingTarget) {
+			if ((cullingTarget == null) || !cullingTarget.enabled) {
 				return;
 			}
 
@@ -65,6 +54,38 @@ namespace MackySoft.Vision.Editor {
 				Undo.RecordObject(cullingTarget,$"{nameof(CullingTargetBehaviour)} \"{cullingTarget.name}\" radius");
 				cullingTarget.Radius = radius;
 			}
+		}
+
+		const string k_InfoStateKey = "Vision_CullingTargetBehaviour_Info";
+
+		CullingTargetBehaviour[] m_CullingTargets;
+		Transform[] m_Transforms;
+
+		SerializedProperty m_GroupKey;
+		SerializedProperty m_BoundingSphereUpdateMode;
+		SerializedProperty m_Radius;
+
+		bool m_IsInfoExpanded;
+
+		void OnEnable () {
+			m_CullingTargets = new CullingTargetBehaviour[targets.Length];
+			m_Transforms = new Transform[targets.Length];
+			for (int i = 0;targets.Length > i;i++) {
+				var cullingTarget = (CullingTargetBehaviour)targets[i];
+				m_CullingTargets[i] = cullingTarget;
+				m_Transforms[i] = cullingTarget.transform;
+			}
+
+			m_GroupKey = serializedObject.FindProperty("m_GroupKey");
+			m_BoundingSphereUpdateMode = serializedObject.FindProperty("m_BoundingSphereUpdateMode");
+			m_Radius = serializedObject.FindProperty("m_Radius");
+
+			m_IsInfoExpanded = SessionState.GetBool(k_InfoStateKey,false);
+		}
+		
+		void OnSceneGUI () {
+			var cullingTarget = (CullingTargetBehaviour)target;
+			DrawHandles(cullingTarget);
 		}
 
 		public override void OnInspectorGUI () {
@@ -102,6 +123,14 @@ namespace MackySoft.Vision.Editor {
 			}
 
 			serializedObject.ApplyModifiedProperties();
+		}
+
+		static Color GetRadiusHandleColor (ICullingTarget target) {
+			var preferences = VisionPreferences.instance;
+			if (EditorApplication.isPlaying) {
+				return target.IsVisible() ? preferences.VisibleSphereRadiusHandleColor : preferences.InvisibleSphereRadiusHandleColor;
+			}
+			return preferences.IdlingSphereRadiusHandleColor;
 		}
 
 		static Color GetRadiusHandleColor (CullingTargetBehaviour target) {

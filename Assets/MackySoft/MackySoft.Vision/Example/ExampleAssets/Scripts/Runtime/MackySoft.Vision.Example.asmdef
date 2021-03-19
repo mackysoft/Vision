@@ -1,0 +1,16 @@
+{
+    "name": "MackySoft.Vision.Example",
+    "rootNamespace": "",
+    "references": [
+        "GUID:248e3e47997cf3e4fb1d4ab6f165af59"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

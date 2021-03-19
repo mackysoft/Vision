@@ -35,8 +35,10 @@ namespace MackySoft.Vision.Utilities {
 		}
 
 		void OnStateChanged (CullingGroupEvent ev) {
-			for (int i = 0;m_Renderers.Length > i;i++) {
-				m_Renderers[i].enabled = ev.isVisible;
+			if (m_Renderers != null) {
+				for (int i = 0;m_Renderers.Length > i;i++) {
+					m_Renderers[i].enabled = ev.isVisible;
+				}
 			}
 		}
 

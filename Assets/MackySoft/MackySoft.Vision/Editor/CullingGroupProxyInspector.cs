@@ -8,10 +8,42 @@ using UnityEditorInternal;
 using UnityObject = UnityEngine.Object;
 
 namespace MackySoft.Vision.Editor {
-
+	
 	[CustomEditor(typeof(CullingGroupProxy))]
 	[CanEditMultipleObjects]
 	public class CullingGroupProxyInspector : UnityEditor.Editor {
+
+		public static void DrawHandles (CullingGroupProxy group) {
+			if ((group == null) || !group.enabled || (group.DistanceReferencePoint == null) || (group.BoundingDistances == null)) {
+				return;
+			}
+			
+			for (int i = 0;group.BoundingDistances.Length > i;i++) {
+				EditorGUI.BeginChangeCheck();
+
+				Handles.color = VisionPreferences.instance.BoundingDistanceHandleColor;
+				float distance = Handles.RadiusHandle(
+					group.DistanceReferencePoint.rotation,
+					group.DistanceReferencePoint.position,
+					group.BoundingDistances[i]
+				);
+				Handles.Label(group.DistanceReferencePoint.position + new Vector3(group.BoundingDistances[i] + 0.1f,0f,0f),"Level " + i.ToString(),EditorStyles.boldLabel);
+				if (EditorGUI.EndChangeCheck()) {
+					Undo.RecordObject(group,$"{nameof(CullingGroupProxy)} \"{group.name}\" distances");
+
+					float minDistance = 0f;
+					float maxDistance = float.MaxValue;
+					if (i > 0) {
+						minDistance = group.BoundingDistances[i - 1] + 0.1f;
+					}
+					if ((i + 1) < group.BoundingDistances.Length) {
+						maxDistance = group.BoundingDistances[i + 1] - 0.1f;
+					}
+
+					group.BoundingDistances[i] = Mathf.Clamp(distance,minDistance,maxDistance);
+				}
+			}
+		}
 
 		const string k_InfoStateKey = "Vision_CullingGroupProxy_Info";
 
@@ -99,35 +131,14 @@ namespace MackySoft.Vision.Editor {
 
 		void OnSceneGUI () {
 			CullingGroupProxy group = (CullingGroupProxy)target;
+			DrawHandles(group);
 
-			if (!group.enabled || (group.DistanceReferencePoint == null) || (group.BoundingDistances == null)) {
-				return;
+			if ((group.TargetCamera != null) && !Selection.Contains(group.TargetCamera)) {
+				CameraEditorUtils.DrawFrustumGizmo(group.TargetCamera);
 			}
-
-			for (int i = 0;group.BoundingDistances.Length > i;i++) {
-				EditorGUI.BeginChangeCheck();
-
-				Handles.color = VisionPreferences.instance.BoundingDistanceHandleColor;
-				float distance = Handles.RadiusHandle(
-					group.DistanceReferencePoint.rotation,
-					group.DistanceReferencePoint.position,
-					group.BoundingDistances[i]
-				);
-				Handles.Label(group.DistanceReferencePoint.position + new Vector3(group.BoundingDistances[i] + 0.1f,0f,0f),"Level " + i.ToString(),EditorStyles.boldLabel);
-				if (EditorGUI.EndChangeCheck()) {
-					Undo.RecordObject(group,$"{nameof(CullingGroupProxy)} \"{group.name}\" distances");
-
-					float minDistance = 0f;
-					float maxDistance = float.MaxValue;
-					if (i > 0) {
-						minDistance = group.BoundingDistances[i - 1] + 0.1f;
-					}
-					if ((i + 1) < m_BoundingDistances.arraySize) {
-						maxDistance = group.BoundingDistances[i + 1] - 0.1f;
-					}
-
-					group.BoundingDistances[i] = Mathf.Clamp(distance,minDistance,maxDistance);
-				}
+			
+			for (int i = 0;group.Targets.Count > i;i++) {
+				CullingTargetBehaviourInspector.DrawHandles(group.Targets[i]);
 			}
 		}
 

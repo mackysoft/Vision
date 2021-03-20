@@ -1,6 +1,9 @@
 using UnityEngine;
 using UnityEditor;
 
+using UnityObject = UnityEngine.Object;
+using System;
+
 namespace MackySoft.Vision.Editor {
 
 	/// <summary>
@@ -17,6 +20,7 @@ namespace MackySoft.Vision.Editor {
 		}
 
 		static void CreateSettings () {
+#if !VISION_DISABLE_GENERATE_SETTINGS
 			var settings = VisionSettings.Instance;
 			if (settings != null) {
 				return;
@@ -37,9 +41,11 @@ namespace MackySoft.Vision.Editor {
 
 				AssetDatabase.CreateAsset(settings,$"{parentFolderPath}/Resources/{nameof(VisionSettings)}.asset");
 				AssetDatabase.Refresh();
-			} catch {
-				UnityEngine.Object.DestroyImmediate(settings);
+			} catch (Exception e) {
+				UnityObject.DestroyImmediate(settings);
+				throw e;
 			}
+#endif
 		}
 
 	}

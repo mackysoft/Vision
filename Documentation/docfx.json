@@ -22,7 +22,8 @@
             "_appTitle": "Vision",
             "_appFooter": "Vision - CullingGroup for everyone",
             "_enableSearch": true,
-            "_enableNewTab": true
+            "_enableNewTab": true,
+            "_disableContribution": true
         },
         "content": [
             {

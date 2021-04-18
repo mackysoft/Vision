@@ -132,6 +132,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html",
+          "hash": "MvIhP9Ig+UUFy2o+Sg2cxMrjgRsbDhYAGBfBwVxGRz0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/MackySoft.Vision.Editor.PackageTools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/MackySoft.Vision.Editor.PackageTools.html",
+          "hash": "V3/5bz3GdH0QFSdh8zhRdyKxyk02MKKxdR0uUHcQ9JI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/MackySoft.Vision.Editor.VisionEditorUtility.yml",
       "output": {
         ".html": {
@@ -328,7 +352,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "dFPwDVsc9RXsMsmstsGtomth+/Y7FrMf6bf//r7d+xM="
+          "hash": "2VRacuyXhwtGtzBpWAXZ+5rsguD/xprQnGLsjvOt8O8="
         }
       },
       "is_incremental": false,
@@ -439,7 +463,7 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": false,
           "incrementalPhase": "build",
-          "total_file_count": 25,
+          "total_file_count": 27,
           "skipped_file_count": 0
         },
         "TocDocumentProcessor": {

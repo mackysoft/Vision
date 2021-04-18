@@ -654,6 +654,57 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Editor.CullingTargetBehaviourInspector.OnInspectorGUI
   nameWithType: CullingTargetBehaviourInspector.OnInspectorGUI
+- uid: MackySoft.Vision.Editor.PackageTools
+  name: MackySoft.Vision.Editor.PackageTools
+  href: api/MackySoft.Vision.Editor.PackageTools.html
+  commentId: N:MackySoft.Vision.Editor.PackageTools
+  fullName: MackySoft.Vision.Editor.PackageTools
+  nameWithType: MackySoft.Vision.Editor.PackageTools
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter
+  name: UnityPackageExporter
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html
+  commentId: T:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter
+  nameWithType: UnityPackageExporter
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export
+  name: Export()
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_Export
+  commentId: M:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export()
+  nameWithType: UnityPackageExporter.Export()
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export*
+  name: Export
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_Export_
+  commentId: Overload:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.Export
+  nameWithType: UnityPackageExporter.Export
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage(System.String)
+  name: ExportPackage(String)
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_ExportPackage_System_String_
+  commentId: M:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage(System.String)
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage(System.String)
+  nameWithType: UnityPackageExporter.ExportPackage(String)
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage*
+  name: ExportPackage
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_ExportPackage_
+  commentId: Overload:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.ExportPackage
+  nameWithType: UnityPackageExporter.ExportPackage
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths
+  name: GetAssetPaths()
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_GetAssetPaths
+  commentId: M:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths()
+  nameWithType: UnityPackageExporter.GetAssetPaths()
+- uid: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths*
+  name: GetAssetPaths
+  href: api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html#MackySoft_Vision_Editor_PackageTools_UnityPackageExporter_GetAssetPaths_
+  commentId: Overload:MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths
+  nameWithType: UnityPackageExporter.GetAssetPaths
 - uid: MackySoft.Vision.Editor.VisionEditorUtility
   name: VisionEditorUtility
   href: api/MackySoft.Vision.Editor.VisionEditorUtility.html

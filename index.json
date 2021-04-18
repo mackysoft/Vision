@@ -49,6 +49,16 @@
     "title": "Namespace MackySoft.Vision.Editor | Vision",
     "keywords": "Namespace MackySoft.Vision.Editor Classes CullingGroupKeyDefinitionDrawer CullingGroupKeyDrawer CullingGroupProxyInspector CullingTargetBehaviourInspector VisionEditorUtility VisionPreferences VisionSettingsInspector VisionSettingsProvider"
   },
+  "api/MackySoft.Vision.Editor.PackageTools.html": {
+    "href": "api/MackySoft.Vision.Editor.PackageTools.html",
+    "title": "Namespace MackySoft.Vision.Editor.PackageTools | Vision",
+    "keywords": "Namespace MackySoft.Vision.Editor.PackageTools Classes UnityPackageExporter It is used to create the Vision package. It is not used by the user."
+  },
+  "api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html": {
+    "href": "api/MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.html",
+    "title": "Class UnityPackageExporter | Vision",
+    "keywords": "Class UnityPackageExporter It is used to create the Vision package. It is not used by the user. Inheritance Object UnityPackageExporter Namespace : MackySoft.Vision.Editor.PackageTools Assembly : cs.temp.dll.dll Syntax public static class UnityPackageExporter Methods Export() Declaration public static void Export() ExportPackage(String) Declaration public static string ExportPackage(string exportPath) Parameters Type Name Description String exportPath Returns Type Description String GetAssetPaths() Declaration public static string[] GetAssetPaths() Returns Type Description String []"
+  },
   "api/MackySoft.Vision.Editor.VisionEditorUtility.html": {
     "href": "api/MackySoft.Vision.Editor.VisionEditorUtility.html",
     "title": "Class VisionEditorUtility | Vision",

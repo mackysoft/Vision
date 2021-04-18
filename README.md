@@ -2,6 +2,8 @@
 
 **Created by Hiroya Aramaki ([Makihiro](https://twitter.com/makihiro_dev))**
 
+[![Tests](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml)
+[![Build](https://github.com/mackysoft/Vision/actions/workflows/build.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/build.yaml)
 
 ## What is CullingGroup API ?
 

@@ -705,6 +705,31 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Editor.PackageTools.UnityPackageExporter.GetAssetPaths
   nameWithType: UnityPackageExporter.GetAssetPaths
+- uid: MackySoft.Vision.Editor.Tests
+  name: MackySoft.Vision.Editor.Tests
+  href: api/MackySoft.Vision.Editor.Tests.html
+  commentId: N:MackySoft.Vision.Editor.Tests
+  fullName: MackySoft.Vision.Editor.Tests
+  nameWithType: MackySoft.Vision.Editor.Tests
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
+  name: CullingGroupKeyTests
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html
+  commentId: T:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
+  nameWithType: CullingGroupKeyTests
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
+  name: NoneMustBeNegativeOne()
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTests_NoneMustBeNegativeOne
+  commentId: M:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne()
+  nameWithType: CullingGroupKeyTests.NoneMustBeNegativeOne()
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne*
+  name: NoneMustBeNegativeOne
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTests_NoneMustBeNegativeOne_
+  commentId: Overload:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
+  nameWithType: CullingGroupKeyTests.NoneMustBeNegativeOne
 - uid: MackySoft.Vision.Editor.VisionEditorUtility
   name: VisionEditorUtility
   href: api/MackySoft.Vision.Editor.VisionEditorUtility.html

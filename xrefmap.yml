@@ -769,6 +769,12 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Editor.VisionPreferences.IdlingSphereRadiusHandleColor
   nameWithType: VisionPreferences.IdlingSphereRadiusHandleColor
+- uid: MackySoft.Vision.Editor.VisionPreferences.instance
+  name: instance
+  href: api/MackySoft.Vision.Editor.VisionPreferences.html#MackySoft_Vision_Editor_VisionPreferences_instance
+  commentId: F:MackySoft.Vision.Editor.VisionPreferences.instance
+  fullName: MackySoft.Vision.Editor.VisionPreferences.instance
+  nameWithType: VisionPreferences.instance
 - uid: MackySoft.Vision.Editor.VisionPreferences.InvisibleSphereRadiusHandleColor
   name: InvisibleSphereRadiusHandleColor
   href: api/MackySoft.Vision.Editor.VisionPreferences.html#MackySoft_Vision_Editor_VisionPreferences_InvisibleSphereRadiusHandleColor
@@ -782,19 +788,6 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Editor.VisionPreferences.InvisibleSphereRadiusHandleColor
   nameWithType: VisionPreferences.InvisibleSphereRadiusHandleColor
-- uid: MackySoft.Vision.Editor.VisionPreferences.Save
-  name: Save()
-  href: api/MackySoft.Vision.Editor.VisionPreferences.html#MackySoft_Vision_Editor_VisionPreferences_Save
-  commentId: M:MackySoft.Vision.Editor.VisionPreferences.Save
-  fullName: MackySoft.Vision.Editor.VisionPreferences.Save()
-  nameWithType: VisionPreferences.Save()
-- uid: MackySoft.Vision.Editor.VisionPreferences.Save*
-  name: Save
-  href: api/MackySoft.Vision.Editor.VisionPreferences.html#MackySoft_Vision_Editor_VisionPreferences_Save_
-  commentId: Overload:MackySoft.Vision.Editor.VisionPreferences.Save
-  isSpec: "True"
-  fullName: MackySoft.Vision.Editor.VisionPreferences.Save
-  nameWithType: VisionPreferences.Save
 - uid: MackySoft.Vision.Editor.VisionPreferences.VisibleSphereRadiusHandleColor
   name: VisibleSphereRadiusHandleColor
   href: api/MackySoft.Vision.Editor.VisionPreferences.html#MackySoft_Vision_Editor_VisionPreferences_VisibleSphereRadiusHandleColor

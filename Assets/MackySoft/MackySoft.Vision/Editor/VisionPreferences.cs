@@ -8,6 +8,7 @@ using UnityEditor;
 
 namespace MackySoft.Vision.Editor {
 
+#if UNITY_2020_1_OR_NEWER
 	[FilePath("VisionPreferences.asset",FilePathAttribute.Location.PreferencesFolder)]
 	public class VisionPreferences : ScriptableSingleton<VisionPreferences> {
 
@@ -109,5 +110,24 @@ namespace MackySoft.Vision.Editor {
 		}
 
 	}
+#else
+	public class VisionPreferences {
+
+		public static readonly VisionPreferences instance = new VisionPreferences();
+
+		Color m_BoundingDistanceHandleColor = Color.cyan * 0.8f;
+		Color m_IdlingSphereRadiusHandleColor = Color.white;
+		Color m_VisibleSphereRadiusHandleColor = Color.green;
+		Color m_InvisibleSphereRadiusHandleColor = Color.red;
+		Color m_DisabledSphereRadiusHandleColor = Color.white * 0.8f;
+
+		public Color BoundingDistanceHandleColor { get => m_BoundingDistanceHandleColor; set => m_BoundingDistanceHandleColor = value; }
+		public Color IdlingSphereRadiusHandleColor { get => m_IdlingSphereRadiusHandleColor; set => m_IdlingSphereRadiusHandleColor = value; }
+		public Color VisibleSphereRadiusHandleColor { get => m_VisibleSphereRadiusHandleColor; set => m_VisibleSphereRadiusHandleColor = value; }
+		public Color InvisibleSphereRadiusHandleColor { get => m_InvisibleSphereRadiusHandleColor; set => m_InvisibleSphereRadiusHandleColor = value; }
+		public Color DisabledSphereRadiusHandleColor { get => m_DisabledSphereRadiusHandleColor; set => m_DisabledSphereRadiusHandleColor = value; }
+
+	}
+#endif
 
 }

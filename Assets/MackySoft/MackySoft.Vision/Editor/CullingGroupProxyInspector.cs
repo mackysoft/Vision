@@ -62,7 +62,7 @@ namespace MackySoft.Vision.Editor {
 		bool m_IsInfoExpanded;
 
 		void OnEnable () {
-			m_AllGroups = FindObjectsOfType<CullingGroupProxy>(true);
+			m_AllGroups = FindObjectsOfType<CullingGroupProxy>();
 
 			m_Groups = new CullingGroupProxy[targets.Length];
 			for (int i = 0;m_Groups.Length > i;i++) {

@@ -7,6 +7,8 @@
 
 ## What is CullingGroup API ?
 
+![TreasureRogue_Culling](https://user-images.githubusercontent.com/13536348/115215242-47d33380-a13e-11eb-816c-c10df930f1aa.gif)
+
 CullingGroup offers a way to integrate your own systems into Unity’s culling and LOD pipeline.
 
 - Simulating a crowd of people, while only having full GameObjects for the characters that are actually visible right now.

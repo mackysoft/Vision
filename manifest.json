@@ -388,7 +388,7 @@
       "output": {
         ".html": {
           "relative_path": "changelog/CHANGELOG.html",
-          "hash": "M9pYStJk5WrQNkYAU9WtGsCz9eY5ZUA8RFf8dJ26vk8="
+          "hash": "vGwCB1I6boWgMbnQA5NvUsNruhRyNOKEzD8I8sCUsEc="
         }
       },
       "is_incremental": false,
@@ -412,7 +412,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "9fJ30T4LCAzziSV4/LXS4yT4mUBsXvXmpdh5LpEYx8o="
+          "hash": "k/2gI8JIz/uZdrMbnASP48TV78QM/CvrsqauRpqGstg="
         }
       },
       "is_incremental": false,

@@ -97,8 +97,8 @@ jobs:
       # Store artifacts.
       - uses: actions/upload-artifact@v2
         with:
-          name: Vision.${{ env.GIT_TAG }}.unitypackage
-          path: ./Assets/Vision.${{ env.GIT_TAG }}.unitypackage
+          name: Vision.unitypackage
+          path: ./Build/Vision.unitypackage
 
   create-release:
     needs: [update-packagejson, build]

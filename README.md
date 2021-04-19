@@ -52,6 +52,15 @@ Download any version from releases.
 
 Releases: https://github.com/mackysoft/Vision/releases
 
+#### Install via Open UPM
+
+Or, you can install this package from the [Open UPM](https://openupm.com/packages/com.mackysoft.vision/) registry.
+
+More details [here](https://openupm.com/).
+
+```
+openupm add com.mackysoft.vision
+```
 
 # <a id="usage" href="#requirements"> 🔰 Usage </a>
 

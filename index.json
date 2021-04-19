@@ -59,15 +59,15 @@
     "title": "Class UnityPackageExporter | Vision",
     "keywords": "Class UnityPackageExporter It is used to create the Vision package. It is not used by the user. Inheritance Object UnityPackageExporter Namespace : MackySoft.Vision.Editor.PackageTools Assembly : cs.temp.dll.dll Syntax public static class UnityPackageExporter Methods Export() Declaration public static void Export() ExportPackage(String) Declaration public static string ExportPackage(string exportPath) Parameters Type Name Description String exportPath Returns Type Description String GetAssetPaths() Declaration public static string[] GetAssetPaths() Returns Type Description String []"
   },
-  "api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html": {
-    "href": "api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html",
-    "title": "Class CullingGroupKeyTests | Vision",
-    "keywords": "Class CullingGroupKeyTests Inheritance Object CullingGroupKeyTests Namespace : MackySoft.Vision.Editor.Tests Assembly : cs.temp.dll.dll Syntax public class CullingGroupKeyTests Methods NoneMustBeNegativeOne() Declaration public void NoneMustBeNegativeOne()"
+  "api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html": {
+    "href": "api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html",
+    "title": "Class CullingGroupKeyTest | Vision",
+    "keywords": "Class CullingGroupKeyTest Inheritance Object CullingGroupKeyTest Namespace : MackySoft.Vision.Editor.Tests Assembly : cs.temp.dll.dll Syntax public class CullingGroupKeyTest Methods EqualsAndEqualityOperatorMustReturnsSameResult() Declaration public void EqualsAndEqualityOperatorMustReturnsSameResult() NoneMustBeNegativeOne() Declaration public void NoneMustBeNegativeOne()"
   },
   "api/MackySoft.Vision.Editor.Tests.html": {
     "href": "api/MackySoft.Vision.Editor.Tests.html",
     "title": "Namespace MackySoft.Vision.Editor.Tests | Vision",
-    "keywords": "Namespace MackySoft.Vision.Editor.Tests Classes CullingGroupKeyTests"
+    "keywords": "Namespace MackySoft.Vision.Editor.Tests Classes CullingGroupKeyTest"
   },
   "api/MackySoft.Vision.Editor.VisionEditorUtility.html": {
     "href": "api/MackySoft.Vision.Editor.VisionEditorUtility.html",

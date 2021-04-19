@@ -711,25 +711,38 @@ references:
   commentId: N:MackySoft.Vision.Editor.Tests
   fullName: MackySoft.Vision.Editor.Tests
   nameWithType: MackySoft.Vision.Editor.Tests
-- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
-  name: CullingGroupKeyTests
-  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html
-  commentId: T:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
-  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests
-  nameWithType: CullingGroupKeyTests
-- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
-  name: NoneMustBeNegativeOne()
-  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTests_NoneMustBeNegativeOne
-  commentId: M:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
-  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne()
-  nameWithType: CullingGroupKeyTests.NoneMustBeNegativeOne()
-- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne*
-  name: NoneMustBeNegativeOne
-  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTests_NoneMustBeNegativeOne_
-  commentId: Overload:MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest
+  name: CullingGroupKeyTest
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html
+  commentId: T:MackySoft.Vision.Editor.Tests.CullingGroupKeyTest
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest
+  nameWithType: CullingGroupKeyTest
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult
+  name: EqualsAndEqualityOperatorMustReturnsSameResult()
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTest_EqualsAndEqualityOperatorMustReturnsSameResult
+  commentId: M:MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult()
+  nameWithType: CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult()
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult*
+  name: EqualsAndEqualityOperatorMustReturnsSameResult
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTest_EqualsAndEqualityOperatorMustReturnsSameResult_
+  commentId: Overload:MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult
   isSpec: "True"
-  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTests.NoneMustBeNegativeOne
-  nameWithType: CullingGroupKeyTests.NoneMustBeNegativeOne
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult
+  nameWithType: CullingGroupKeyTest.EqualsAndEqualityOperatorMustReturnsSameResult
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne
+  name: NoneMustBeNegativeOne()
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTest_NoneMustBeNegativeOne
+  commentId: M:MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne()
+  nameWithType: CullingGroupKeyTest.NoneMustBeNegativeOne()
+- uid: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne*
+  name: NoneMustBeNegativeOne
+  href: api/MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.html#MackySoft_Vision_Editor_Tests_CullingGroupKeyTest_NoneMustBeNegativeOne_
+  commentId: Overload:MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne
+  isSpec: "True"
+  fullName: MackySoft.Vision.Editor.Tests.CullingGroupKeyTest.NoneMustBeNegativeOne
+  nameWithType: CullingGroupKeyTest.NoneMustBeNegativeOne
 - uid: MackySoft.Vision.Editor.VisionEditorUtility
   name: VisionEditorUtility
   href: api/MackySoft.Vision.Editor.VisionEditorUtility.html

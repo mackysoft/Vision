@@ -30,10 +30,19 @@ namespace MackySoft.Vision.Editor {
 			try {
 				MonoScript settingsScript = MonoScript.FromScriptableObject(settings);
 
-				// Assets/MackySoft/MackySoft.Vision/Runtime/VisionSettings.cs
+				// unitypackage: Assets/MackySoft/MackySoft.Vision/Runtime/VisionSettings.cs
+				// Open UPM: Packages/com.mackysoft.vision/Runtime/VisionSettings.cs
 				string settingsScriptPath = AssetDatabase.GetAssetPath(settingsScript);
-				int lastIndex = settingsScriptPath.IndexOf(k_ParentFolderName);
-				string parentFolderPath = settingsScriptPath.Remove(lastIndex + k_ParentFolderName.Length);
+
+				string parentFolderPath = null;
+				if (settingsScriptPath.StartsWith("Assets/")) {
+					int lastIndex = settingsScriptPath.IndexOf(k_ParentFolderName);
+					parentFolderPath = settingsScriptPath.Remove(lastIndex + k_ParentFolderName.Length);
+				} else if (settingsScriptPath.StartsWith("Packages/")) {
+					parentFolderPath = "Assets";
+				} else {
+					throw new InvalidOperationException("Unexpected Vision package path.");
+				}
 
 				if (!AssetDatabase.IsValidFolder(parentFolderPath + "/Resources")) {
 					AssetDatabase.CreateFolder(parentFolderPath,"Resources");

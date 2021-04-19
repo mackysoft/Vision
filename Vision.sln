@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Example", "MackySoft.Vision.Example.csproj", "{EE8457BA-570B-1FFD-3F70-B4CF3DD7311E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision", "MackySoft.Vision.csproj", "{8BA2FA2C-4211-781E-DDDD-200926FFA88A}"

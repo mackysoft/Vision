@@ -144,7 +144,7 @@ However, there are some objects that do not move. In such cases, you can avoid t
 
 ## <a id="receive-callback" href="#receive-callback"> 3. Receive a callback </a>
 
-Use `CullinTargetBehaviour.OnStateChanged` callback to respond to changes in the visibility and distance state of the bounding sphere.
+Use `CullingTargetBehaviour.OnStateChanged` callback to respond to changes in the visibility and distance state of the bounding sphere.
 
 ```cs
 using UnityEngine;
@@ -158,7 +158,7 @@ public class ReceiveCallbackExample : MonoBehaviour {
         cullingTarget.OnStateChanged += OnStateChanged;
     }
 
-    void OnStaeteChanged (CullingGroupEvent ev) {
+    void OnStateChanged (CullingGroupEvent ev) {
         if (ev.isVisible) {
             Debug.Log("Visible!");
         } else {

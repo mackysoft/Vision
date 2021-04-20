@@ -42,6 +42,7 @@ Vision has made such a CullingGroup available to everyone.
   - [3. Receive a callback](#receive-callback)
 - [⚒Utilities](#utilities)
   - [Culling Target Renderers](#culling-target-renderers)
+- [✉ Help & Contribute](#help-and-contribute)
 - [📔 Author Info](#author-info)
 - [📜 License](#license)
 
@@ -179,6 +180,13 @@ Vision provides utility components that can be used with no coding.
 Enable / Disable the specified renderer's depending on the visibility of the bounding sphere.
 
 ![CullingTargetRenderers](https://user-images.githubusercontent.com/13536348/111073973-5cf7e980-8524-11eb-9b84-ab95c263940c.jpg)
+
+
+# <a id="help-and-contribute" href="#help-and-contribute"> ✉ Help & Contribute </a>
+
+Questions and ideas are welcome in [discussions](https://github.com/mackysoft/Vision/discussions).
+
+We welcome contributions such as [bug reports](https://github.com/mackysoft/Vision/issues) and [pull requests](https://github.com/mackysoft/Vision/pulls).
 
 
 # <a id="author-info" href="#author-info"> 📔 Author Info </a>

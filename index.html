@@ -8,7 +8,7 @@
     <title>Vision - CullingGroup API for everyone | Vision </title>
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Vision - CullingGroup API for everyone | Vision ">
-    <meta name="generator" content="docfx 2.57.1.0">
+    <meta name="generator" content="docfx 2.57.2.0">
     
     <link rel="shortcut icon" href="favicon.ico">
     <link rel="stylesheet" href="styles/docfx.vendor.css">
@@ -181,7 +181,7 @@ and the <code>CullingGroupBehaviour</code> will be registered with the found <co
 <p><code>BoundingSphereUpdateMode</code> is set to <code>Dynamic</code> by default. This means that the transform of bounding sphere will be updated every frame.</p>
 <p>However, there are some objects that do not move. In such cases, you can avoid the extra update cost by setting the <code>BoundingSphereUpdateMode</code> to <code>Static</code>.</p>
 <h2 id="a-idreceive-callback-hrefreceive-callback-3-receive-a-callback-a"><a id="receive-callback" href="#receive-callback"> 3. Receive a callback </a></h2>
-<p>Use <code>CullinTargetBehaviour.OnStateChanged</code> callback to respond to changes in the visibility and distance state of the bounding sphere.</p>
+<p>Use <code>CullingTargetBehaviour.OnStateChanged</code> callback to respond to changes in the visibility and distance state of the bounding sphere.</p>
 <pre><code class="lang-cs">using UnityEngine;
 using MackySoft.Vision;
 
@@ -193,7 +193,7 @@ public class ReceiveCallbackExample : MonoBehaviour {
         cullingTarget.OnStateChanged += OnStateChanged;
     }
 
-    void OnStaeteChanged (CullingGroupEvent ev) {
+    void OnStateChanged (CullingGroupEvent ev) {
         if (ev.isVisible) {
             Debug.Log(&quot;Visible!&quot;);
         } else {

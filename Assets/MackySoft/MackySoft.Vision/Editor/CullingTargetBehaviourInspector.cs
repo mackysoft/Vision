@@ -62,6 +62,7 @@ namespace MackySoft.Vision.Editor {
 		Transform[] m_Transforms;
 
 		SerializedProperty m_GroupKey;
+		SerializedProperty m_GroupKeyIndex;
 		SerializedProperty m_BoundingSphereUpdateMode;
 		SerializedProperty m_Radius;
 
@@ -77,6 +78,7 @@ namespace MackySoft.Vision.Editor {
 			}
 
 			m_GroupKey = serializedObject.FindProperty("m_GroupKey");
+			m_GroupKeyIndex = m_GroupKey.FindPropertyRelative("m_Index");
 			m_BoundingSphereUpdateMode = serializedObject.FindProperty("m_BoundingSphereUpdateMode");
 			m_Radius = serializedObject.FindProperty("m_Radius");
 
@@ -88,9 +90,14 @@ namespace MackySoft.Vision.Editor {
 			DrawHandles(cullingTarget);
 		}
 
+		static readonly string k_KeyNotSetMessage = $"The key is not set. To cull this CullingTarget, you need to set a key to find the {nameof(CullingGroupProxy)}.";
+
 		public override void OnInspectorGUI () {
 			serializedObject.Update();
 
+			if (m_GroupKeyIndex.intValue < 0) {
+				EditorGUILayout.HelpBox(k_KeyNotSetMessage,MessageType.Warning);
+			}
 			EditorGUILayout.PropertyField(m_GroupKey);
 
 			EditorGUILayout.Space();

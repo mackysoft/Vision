@@ -522,6 +522,25 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.CullingTargetBehaviour.UpdateAndGetBoundingSphere
   nameWithType: CullingTargetBehaviour.UpdateAndGetBoundingSphere
+- uid: MackySoft.Vision.CullingTargetGameObjects
+  name: CullingTargetGameObjects
+  href: api/MackySoft.Vision.CullingTargetGameObjects.html
+  commentId: T:MackySoft.Vision.CullingTargetGameObjects
+  fullName: MackySoft.Vision.CullingTargetGameObjects
+  nameWithType: CullingTargetGameObjects
+- uid: MackySoft.Vision.CullingTargetGameObjects.GameObjects
+  name: GameObjects
+  href: api/MackySoft.Vision.CullingTargetGameObjects.html#MackySoft_Vision_CullingTargetGameObjects_GameObjects
+  commentId: P:MackySoft.Vision.CullingTargetGameObjects.GameObjects
+  fullName: MackySoft.Vision.CullingTargetGameObjects.GameObjects
+  nameWithType: CullingTargetGameObjects.GameObjects
+- uid: MackySoft.Vision.CullingTargetGameObjects.GameObjects*
+  name: GameObjects
+  href: api/MackySoft.Vision.CullingTargetGameObjects.html#MackySoft_Vision_CullingTargetGameObjects_GameObjects_
+  commentId: Overload:MackySoft.Vision.CullingTargetGameObjects.GameObjects
+  isSpec: "True"
+  fullName: MackySoft.Vision.CullingTargetGameObjects.GameObjects
+  nameWithType: CullingTargetGameObjects.GameObjects
 - uid: MackySoft.Vision.CullingTargetsUpdateMode
   name: CullingTargetsUpdateMode
   href: api/MackySoft.Vision.CullingTargetsUpdateMode.html
@@ -1287,6 +1306,25 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Utilities.CullingGroupTargetCameraSetter.TargetCamera
   nameWithType: CullingGroupTargetCameraSetter.TargetCamera
+- uid: MackySoft.Vision.Utilities.CullingTargetComponents
+  name: CullingTargetComponents
+  href: api/MackySoft.Vision.Utilities.CullingTargetComponents.html
+  commentId: T:MackySoft.Vision.Utilities.CullingTargetComponents
+  fullName: MackySoft.Vision.Utilities.CullingTargetComponents
+  nameWithType: CullingTargetComponents
+- uid: MackySoft.Vision.Utilities.CullingTargetComponents.Components
+  name: Components
+  href: api/MackySoft.Vision.Utilities.CullingTargetComponents.html#MackySoft_Vision_Utilities_CullingTargetComponents_Components
+  commentId: P:MackySoft.Vision.Utilities.CullingTargetComponents.Components
+  fullName: MackySoft.Vision.Utilities.CullingTargetComponents.Components
+  nameWithType: CullingTargetComponents.Components
+- uid: MackySoft.Vision.Utilities.CullingTargetComponents.Components*
+  name: Components
+  href: api/MackySoft.Vision.Utilities.CullingTargetComponents.html#MackySoft_Vision_Utilities_CullingTargetComponents_Components_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingTargetComponents.Components
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingTargetComponents.Components
+  nameWithType: CullingTargetComponents.Components
 - uid: MackySoft.Vision.Utilities.CullingTargetRenderers
   name: CullingTargetRenderers
   href: api/MackySoft.Vision.Utilities.CullingTargetRenderers.html

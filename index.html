@@ -136,7 +136,7 @@ You can define a new key in the <code>GroupKeyDefinitions</code> list.</p>
 <h4 id="3-distances">3. Distances</h4>
 <p>By setting <code>DistanceReferencePoint</code> and <code>BoundingDistances</code> of <code>CullingGroupProxy</code>, you can calculate the relative distance between a reference point (for example, camera, player) and the bounding sphere&#39;s.</p>
 <p><img src="https://user-images.githubusercontent.com/13536348/111077905-465a8e00-8536-11eb-92c1-657f73c1e7df.jpg" alt="CullingGroupPRoxy_Distances"></p>
-<p>If <code>BoundingDistances</code> is set to { 10, 20, 30 },</p>
+<p>If <code>BoundingDistances</code> is set to <code>{ 10f, 20f, 30f }</code>,</p>
 <table>
 <thead>
 <tr>
@@ -160,6 +160,7 @@ You can define a new key in the <code>GroupKeyDefinitions</code> list.</p>
 </tbody>
 </table>
 <p>The last level and beyond will be treated as invisible.</p>
+<p>If Distances is empty, <code>{ 0f , Mathf.Infinity }</code> will be used as a fallback. In that case, currentDistance will always be 1.</p>
 <blockquote><p><code>BoundingDistances</code> can be adjusted visually from the scene view !</p>
 </blockquote>
 <p><img src="https://user-images.githubusercontent.com/13536348/111077910-4c506f00-8536-11eb-917b-dd35a4bdc6bd.jpg" alt="CullingTargetProxy_Distances_Gizmo"></p>

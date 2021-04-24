@@ -66,6 +66,9 @@
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupKeyDefinitionDrawer.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\VisionPreferences.cs" />
     <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\CullingGroupProxyInspector.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\Utilities\CullingTargetGameObjectsInspector.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\Utilities\CullingTargetComponentsInspector.cs" />
+    <Compile Include="Assets\MackySoft\MackySoft.Vision\Editor\Utilities\CullingTargetRenderersInspector.cs" />
   </ItemGroup>
   <ItemGroup>
      <None Include="Assets\MackySoft\MackySoft.Vision\Editor\MackySoft.Vision.Editor.asmdef" />

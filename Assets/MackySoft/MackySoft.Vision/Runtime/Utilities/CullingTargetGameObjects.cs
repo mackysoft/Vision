@@ -4,7 +4,7 @@ using System.Linq;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace MackySoft.Vision {
+namespace MackySoft.Vision.Utilities {
 
 	/// <summary>
 	/// <para> A simple component that enable/disable the specified component's depending on the visibility of the attached <see cref="ICullingTarget"/>. </para>

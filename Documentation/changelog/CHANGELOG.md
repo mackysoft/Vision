@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.2.0] - 2021-04-25
+### Added
+- Added `CullingTargetComponents` and `CullingTargetGameObjects`.
+    - These components work the same as `CullingTargetRenderers`.
+
+### Changed
+- Moved coponent menu of utility components to `MackySoft/Vision/Utilities/`.
+- `UnityPackageExporter` is now exclude the `Resources` folder.
+- `VisionSettingsInitializer` is now generate `VisionSettings` always.
+
 ## [1.1.5] - 2021-04-21
 ### Changed
 - If the `CullingTargetBehaviour.GroupKey` is not set, a warning will now be displayed in the Inspector.

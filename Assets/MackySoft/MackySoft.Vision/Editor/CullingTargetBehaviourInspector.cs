@@ -1,3 +1,5 @@
+#pragma warning disable CA1802 // Use literals where appropriate
+
 using UnityEngine;
 using UnityEditor;
 

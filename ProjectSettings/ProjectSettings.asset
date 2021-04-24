@@ -578,7 +578,7 @@ PlayerSettings:
   webGLThreadsSupport: 0
   webGLDecompressionFallback: 0
   scriptingDefineSymbols:
-    1: VISION_DEVELOPER;VISION_DISABLE_GENERATE_SETTINGS
+    1: VISION_DEVELOPER
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

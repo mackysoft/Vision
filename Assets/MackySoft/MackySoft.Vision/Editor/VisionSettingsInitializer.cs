@@ -20,7 +20,6 @@ namespace MackySoft.Vision.Editor {
 		}
 
 		static void CreateSettings () {
-#if !VISION_DISABLE_GENERATE_SETTINGS
 			var settings = VisionSettings.Instance;
 			if (settings != null) {
 				return;
@@ -54,7 +53,6 @@ namespace MackySoft.Vision.Editor {
 				UnityObject.DestroyImmediate(settings);
 				throw e;
 			}
-#endif
 		}
 
 	}

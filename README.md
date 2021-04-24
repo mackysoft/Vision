@@ -93,7 +93,7 @@ By setting `DistanceReferencePoint` and `BoundingDistances` of `CullingGroupProx
 
 ![CullingGroupPRoxy_Distances](https://user-images.githubusercontent.com/13536348/111077905-465a8e00-8536-11eb-92c1-657f73c1e7df.jpg)
 
-If `BoundingDistances` is set to { 10, 20, 30 },
+If `BoundingDistances` is set to `{ 10f, 20f, 30f }`,
 
 |Distance Level|Range|
 |:--|:--|
@@ -102,6 +102,8 @@ If `BoundingDistances` is set to { 10, 20, 30 },
 |Level 2|20m ~ 30m|
 
 The last level and beyond will be treated as invisible.
+
+If Distances is empty, `{ 0f , Mathf.Infinity }` will be used as a fallback. In that case, currentDistance will always be 1.
 
 > `BoundingDistances` can be adjusted visually from the scene view !
 

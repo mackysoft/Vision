@@ -21,6 +21,7 @@ namespace MackySoft.Vision.Editor.PackageTools {
 
 		const string k_SearchPattern = "*";
 		const string k_PackageToolsFolderName = "PackageTools";
+		const string k_ResourcesFolderName = "Resources";
 
 #if VISION_DEVELOPER
 		[MenuItem("Tools/Vision/Export Package")]
@@ -50,7 +51,7 @@ namespace MackySoft.Vision.Editor.PackageTools {
 		public static string[] GetAssetPaths () {
 			var path = Path.Combine(Application.dataPath,k_PackagePath);
 			var assets = Directory.EnumerateFiles(path,k_SearchPattern,SearchOption.AllDirectories)
-				.Where(x => !x.Contains(k_PackageToolsFolderName))
+				.Where(x => !x.Contains(k_PackageToolsFolderName) && !x.Contains(k_ResourcesFolderName))
 				.Select(x => "Assets" + x.Replace(Application.dataPath,"").Replace(@"\","/"))
 				.ToArray();
 			return assets;

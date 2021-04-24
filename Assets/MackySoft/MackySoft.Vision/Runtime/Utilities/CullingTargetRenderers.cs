@@ -7,7 +7,7 @@ namespace MackySoft.Vision.Utilities {
 	/// <summary>
 	/// A simple component that enable/disable the specified renderer's depending on the visibility of the attached <see cref="ICullingTarget"/>.
 	/// </summary>
-	[AddComponentMenu("MackySoft/Vision/Culling Target Renderers")]
+	[AddComponentMenu("MackySoft/Vision/Utilities/Culling Target Renderers")]
 	[HelpURL("https://github.com/mackysoft/Vision")]
 	public class CullingTargetRenderers : MonoBehaviour {
 

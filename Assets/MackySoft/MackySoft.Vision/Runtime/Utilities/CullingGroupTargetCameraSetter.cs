@@ -5,7 +5,7 @@ namespace MackySoft.Vision.Utilities {
 	/// <summary>
 	/// A useful component for linking <see cref="CullingGroupProxy"/> and camera that exist in separate scenes.
 	/// </summary>
-	[AddComponentMenu("MackySoft/Vision/Culling Group Target Camera Setter")]
+	[AddComponentMenu("MackySoft/Vision/Utilities/Culling Group Target Camera Setter")]
 	[HelpURL("https://github.com/mackysoft/Vision")]
 	public class CullingGroupTargetCameraSetter : MonoBehaviour {
 

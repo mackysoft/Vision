@@ -1,6 +1,6 @@
 {
     "name": "MackySoft.Vision.Editor",
-    "rootNamespace": "MackySoft.Vision",
+    "rootNamespace": "MackySoft.Vision.Editor",
     "references": [
         "GUID:248e3e47997cf3e4fb1d4ab6f165af59"
     ],

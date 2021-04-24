@@ -1,7 +1,7 @@
 {
 	"name": "com.mackysoft.vision",
 	"displayName": "Vision",
-	"version": "1.1.5",
+	"version": "1.2.0",
 	"unity": "2019.4",
 	"description": "CullingGroup for everyone.",
 	"keywords": [ "Vision", "CullingGroup" ],

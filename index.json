@@ -19,11 +19,6 @@
     "title": "Class CullingTargetBehaviour | Vision",
     "keywords": "Class CullingTargetBehaviour A component that implement ICullingTarget , which can be registered to CullingGroupProxy with a key. Inheritance Object CullingTargetBehaviour Implements ICullingTarget Namespace : MackySoft.Vision Assembly : cs.temp.dll.dll Syntax public class CullingTargetBehaviour : MonoBehaviour, ICullingTarget Properties BoundingSphere BoundingSphere with transform position and radius applied. If you want to get the latest state, use UpdateAndGetBoundingSphere() . Declaration public BoundingSphere BoundingSphere { get; } Property Value Type Description BoundingSphere BoundingSphereUpdateMode When to update the bounding sphere transform. To apply this value change, you need to call the update method of CullingGroupProxy . See: UpdateTargets() , UpdateDynamicTargets() Declaration public TransformUpdateMode BoundingSphereUpdateMode { get; set; } Property Value Type Description TransformUpdateMode Group The group to which this culling target belongs. Declaration public CullingGroupProxy Group { get; } Property Value Type Description CullingGroupProxy GroupKey A key of CullingGroupProxy to register this CullingTargetBehaviour . Declaration public CullingGroupKey GroupKey { get; set; } Property Value Type Description CullingGroupKey OnStateChanged Sets the callback that will be called when a sphere visibility and/or distance state has changed. Declaration public CullingGroup.StateChanged OnStateChanged { get; set; } Property Value Type Description CullingGroup.StateChanged Radius A radius of bounding sphere. Declaration public float Radius { get; set; } Property Value Type Description Single Methods GetDistance() Get the current distance band index of the bounding sphere. Declaration public int GetDistance() Returns Type Description Int32 The sphere current distance band index. IsVisible() Returns true if the bounding sphere is currently visible from any of the contributing cameras. Declaration public bool IsVisible() Returns Type Description Boolean True if the bounding sphere is visible, false if it is invisible. UpdateAndGetBoundingSphere() Update the BoundingSphere to the latest state and returns it. Declaration public BoundingSphere UpdateAndGetBoundingSphere() Returns Type Description BoundingSphere The BoundingSphere updated to the latest state. Implements ICullingTarget"
   },
-  "api/MackySoft.Vision.CullingTargetGameObjects.html": {
-    "href": "api/MackySoft.Vision.CullingTargetGameObjects.html",
-    "title": "Class CullingTargetGameObjects | Vision",
-    "keywords": "Class CullingTargetGameObjects A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . WARN: If you target your self game object, CullingTarget will also be disabled. Inheritance Object CullingTargetGameObjects Namespace : MackySoft.Vision Assembly : cs.temp.dll.dll Syntax public class CullingTargetGameObjects : MonoBehaviour Properties GameObjects A GameObjects's to active/inactive. WARN: If you target your self game object, CullingTarget will also be disabled. Declaration public GameObject[] GameObjects { get; set; } Property Value Type Description GameObject []"
-  },
   "api/MackySoft.Vision.CullingTargetsUpdateMode.html": {
     "href": "api/MackySoft.Vision.CullingTargetsUpdateMode.html",
     "title": "Enum CullingTargetsUpdateMode | Vision",
@@ -97,7 +92,7 @@
   "api/MackySoft.Vision.html": {
     "href": "api/MackySoft.Vision.html",
     "title": "Namespace MackySoft.Vision | Vision",
-    "keywords": "Namespace MackySoft.Vision Classes CullingGroupKeyDefinition Definition of CullingGroupKey . It can be defined in VisionSettings . Basically, it is not used directly by the user. CullingGroupProxy Relay component for easy access to the CullingGroup API. CullingTargetBehaviour A component that implement ICullingTarget , which can be registered to CullingGroupProxy with a key. CullingTargetGameObjects A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . WARN: If you target your self game object, CullingTarget will also be disabled. VisionSettings VisionSettings is where you can configure settings related to Vision. It can be opened from the \"Tools/Vision/Open Settings\" menu. Structs CullingGroupKey Key to find the CullingGroupProxy . The essence of a key is an index. The keys are defined in VisionSettings . Interfaces ICullingTarget Enums CullingTargetsUpdateMode TransformUpdateMode When to update the transform."
+    "keywords": "Namespace MackySoft.Vision Classes CullingGroupKeyDefinition Definition of CullingGroupKey . It can be defined in VisionSettings . Basically, it is not used directly by the user. CullingGroupProxy Relay component for easy access to the CullingGroup API. CullingTargetBehaviour A component that implement ICullingTarget , which can be registered to CullingGroupProxy with a key. VisionSettings VisionSettings is where you can configure settings related to Vision. It can be opened from the \"Tools/Vision/Open Settings\" menu. Structs CullingGroupKey Key to find the CullingGroupProxy . The essence of a key is an index. The keys are defined in VisionSettings . Interfaces ICullingTarget Enums CullingTargetsUpdateMode TransformUpdateMode When to update the transform."
   },
   "api/MackySoft.Vision.ICullingTarget.html": {
     "href": "api/MackySoft.Vision.ICullingTarget.html",
@@ -129,6 +124,11 @@
     "title": "Class CullingTargetComponents | Vision",
     "keywords": "Class CullingTargetComponents A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . Inheritance Object CullingTargetComponents Namespace : MackySoft.Vision.Utilities Assembly : cs.temp.dll.dll Syntax public class CullingTargetComponents : MonoBehaviour Properties Components A component's to enable/disable. Declaration public Behaviour[] Components { get; set; } Property Value Type Description Behaviour []"
   },
+  "api/MackySoft.Vision.Utilities.CullingTargetGameObjects.html": {
+    "href": "api/MackySoft.Vision.Utilities.CullingTargetGameObjects.html",
+    "title": "Class CullingTargetGameObjects | Vision",
+    "keywords": "Class CullingTargetGameObjects A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . WARN: If you target your self game object, CullingTarget will also be disabled. Inheritance Object CullingTargetGameObjects Namespace : MackySoft.Vision.Utilities Assembly : cs.temp.dll.dll Syntax public class CullingTargetGameObjects : MonoBehaviour Properties GameObjects A GameObjects's to active/inactive. WARN: If you target your self game object, CullingTarget will also be disabled. Declaration public GameObject[] GameObjects { get; set; } Property Value Type Description GameObject []"
+  },
   "api/MackySoft.Vision.Utilities.CullingTargetRenderers.html": {
     "href": "api/MackySoft.Vision.Utilities.CullingTargetRenderers.html",
     "title": "Class CullingTargetRenderers | Vision",
@@ -139,15 +139,30 @@
     "title": "Class CameraReferenceDrawer | Vision",
     "keywords": "Class CameraReferenceDrawer Inheritance Object CameraReferenceDrawer Namespace : MackySoft.Vision.Utilities.Editor Assembly : cs.temp.dll.dll Syntax public class CameraReferenceDrawer : PropertyDrawer Methods OnGUI(Rect, SerializedProperty, GUIContent) Declaration public override void OnGUI(Rect position, SerializedProperty property, GUIContent label) Parameters Type Name Description Rect position SerializedProperty property GUIContent label"
   },
+  "api/MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.html": {
+    "href": "api/MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.html",
+    "title": "Class CullingTargetComponentsInspector | Vision",
+    "keywords": "Class CullingTargetComponentsInspector Inheritance Object CullingTargetComponentsInspector Namespace : MackySoft.Vision.Utilities.Editor Assembly : cs.temp.dll.dll Syntax public class CullingTargetComponentsInspector : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.html": {
+    "href": "api/MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.html",
+    "title": "Class CullingTargetGameObjectsInspector | Vision",
+    "keywords": "Class CullingTargetGameObjectsInspector Inheritance Object CullingTargetGameObjectsInspector Namespace : MackySoft.Vision.Utilities.Editor Assembly : cs.temp.dll.dll Syntax public class CullingTargetGameObjectsInspector : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
+  "api/MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.html": {
+    "href": "api/MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.html",
+    "title": "Class CullingTargetRenderersInspector | Vision",
+    "keywords": "Class CullingTargetRenderersInspector Inheritance Object CullingTargetRenderersInspector Namespace : MackySoft.Vision.Utilities.Editor Assembly : cs.temp.dll.dll Syntax public class CullingTargetRenderersInspector : UnityEditor.Editor Methods OnInspectorGUI() Declaration public override void OnInspectorGUI()"
+  },
   "api/MackySoft.Vision.Utilities.Editor.html": {
     "href": "api/MackySoft.Vision.Utilities.Editor.html",
     "title": "Namespace MackySoft.Vision.Utilities.Editor | Vision",
-    "keywords": "Namespace MackySoft.Vision.Utilities.Editor Classes CameraReferenceDrawer"
+    "keywords": "Namespace MackySoft.Vision.Utilities.Editor Classes CameraReferenceDrawer CullingTargetComponentsInspector CullingTargetGameObjectsInspector CullingTargetRenderersInspector"
   },
   "api/MackySoft.Vision.Utilities.html": {
     "href": "api/MackySoft.Vision.Utilities.html",
     "title": "Namespace MackySoft.Vision.Utilities | Vision",
-    "keywords": "Namespace MackySoft.Vision.Utilities Classes CameraReference Advanced camera reference. Useful when referencing camera from multiple scenes and prefabs. CullingGroupTargetCameraSetter A useful component for linking CullingGroupProxy and camera that exist in separate scenes. CullingTargetComponents A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . CullingTargetRenderers A simple component that enable/disable the specified renderer's depending on the visibility of the attached ICullingTarget . Enums CameraReferenceMode"
+    "keywords": "Namespace MackySoft.Vision.Utilities Classes CameraReference Advanced camera reference. Useful when referencing camera from multiple scenes and prefabs. CullingGroupTargetCameraSetter A useful component for linking CullingGroupProxy and camera that exist in separate scenes. CullingTargetComponents A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . CullingTargetGameObjects A simple component that enable/disable the specified component's depending on the visibility of the attached ICullingTarget . WARN: If you target your self game object, CullingTarget will also be disabled. CullingTargetRenderers A simple component that enable/disable the specified renderer's depending on the visibility of the attached ICullingTarget . Enums CameraReferenceMode"
   },
   "api/MackySoft.Vision.VisionSettings.html": {
     "href": "api/MackySoft.Vision.VisionSettings.html",

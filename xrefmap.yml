@@ -522,25 +522,6 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.CullingTargetBehaviour.UpdateAndGetBoundingSphere
   nameWithType: CullingTargetBehaviour.UpdateAndGetBoundingSphere
-- uid: MackySoft.Vision.CullingTargetGameObjects
-  name: CullingTargetGameObjects
-  href: api/MackySoft.Vision.CullingTargetGameObjects.html
-  commentId: T:MackySoft.Vision.CullingTargetGameObjects
-  fullName: MackySoft.Vision.CullingTargetGameObjects
-  nameWithType: CullingTargetGameObjects
-- uid: MackySoft.Vision.CullingTargetGameObjects.GameObjects
-  name: GameObjects
-  href: api/MackySoft.Vision.CullingTargetGameObjects.html#MackySoft_Vision_CullingTargetGameObjects_GameObjects
-  commentId: P:MackySoft.Vision.CullingTargetGameObjects.GameObjects
-  fullName: MackySoft.Vision.CullingTargetGameObjects.GameObjects
-  nameWithType: CullingTargetGameObjects.GameObjects
-- uid: MackySoft.Vision.CullingTargetGameObjects.GameObjects*
-  name: GameObjects
-  href: api/MackySoft.Vision.CullingTargetGameObjects.html#MackySoft_Vision_CullingTargetGameObjects_GameObjects_
-  commentId: Overload:MackySoft.Vision.CullingTargetGameObjects.GameObjects
-  isSpec: "True"
-  fullName: MackySoft.Vision.CullingTargetGameObjects.GameObjects
-  nameWithType: CullingTargetGameObjects.GameObjects
 - uid: MackySoft.Vision.CullingTargetsUpdateMode
   name: CullingTargetsUpdateMode
   href: api/MackySoft.Vision.CullingTargetsUpdateMode.html
@@ -1325,6 +1306,25 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Utilities.CullingTargetComponents.Components
   nameWithType: CullingTargetComponents.Components
+- uid: MackySoft.Vision.Utilities.CullingTargetGameObjects
+  name: CullingTargetGameObjects
+  href: api/MackySoft.Vision.Utilities.CullingTargetGameObjects.html
+  commentId: T:MackySoft.Vision.Utilities.CullingTargetGameObjects
+  fullName: MackySoft.Vision.Utilities.CullingTargetGameObjects
+  nameWithType: CullingTargetGameObjects
+- uid: MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects
+  name: GameObjects
+  href: api/MackySoft.Vision.Utilities.CullingTargetGameObjects.html#MackySoft_Vision_Utilities_CullingTargetGameObjects_GameObjects
+  commentId: P:MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects
+  fullName: MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects
+  nameWithType: CullingTargetGameObjects.GameObjects
+- uid: MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects*
+  name: GameObjects
+  href: api/MackySoft.Vision.Utilities.CullingTargetGameObjects.html#MackySoft_Vision_Utilities_CullingTargetGameObjects_GameObjects_
+  commentId: Overload:MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.CullingTargetGameObjects.GameObjects
+  nameWithType: CullingTargetGameObjects.GameObjects
 - uid: MackySoft.Vision.Utilities.CullingTargetRenderers
   name: CullingTargetRenderers
   href: api/MackySoft.Vision.Utilities.CullingTargetRenderers.html
@@ -1369,6 +1369,63 @@ references:
   isSpec: "True"
   fullName: MackySoft.Vision.Utilities.Editor.CameraReferenceDrawer.OnGUI
   nameWithType: CameraReferenceDrawer.OnGUI
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector
+  name: CullingTargetComponentsInspector
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.html
+  commentId: T:MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector
+  nameWithType: CullingTargetComponentsInspector
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetComponentsInspector_OnInspectorGUI
+  commentId: M:MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI()
+  nameWithType: CullingTargetComponentsInspector.OnInspectorGUI()
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetComponentsInspector_OnInspectorGUI_
+  commentId: Overload:MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetComponentsInspector.OnInspectorGUI
+  nameWithType: CullingTargetComponentsInspector.OnInspectorGUI
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector
+  name: CullingTargetGameObjectsInspector
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.html
+  commentId: T:MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector
+  nameWithType: CullingTargetGameObjectsInspector
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetGameObjectsInspector_OnInspectorGUI
+  commentId: M:MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI()
+  nameWithType: CullingTargetGameObjectsInspector.OnInspectorGUI()
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetGameObjectsInspector_OnInspectorGUI_
+  commentId: Overload:MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetGameObjectsInspector.OnInspectorGUI
+  nameWithType: CullingTargetGameObjectsInspector.OnInspectorGUI
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector
+  name: CullingTargetRenderersInspector
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.html
+  commentId: T:MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector
+  nameWithType: CullingTargetRenderersInspector
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI
+  name: OnInspectorGUI()
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetRenderersInspector_OnInspectorGUI
+  commentId: M:MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI()
+  nameWithType: CullingTargetRenderersInspector.OnInspectorGUI()
+- uid: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI*
+  name: OnInspectorGUI
+  href: api/MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.html#MackySoft_Vision_Utilities_Editor_CullingTargetRenderersInspector_OnInspectorGUI_
+  commentId: Overload:MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI
+  isSpec: "True"
+  fullName: MackySoft.Vision.Utilities.Editor.CullingTargetRenderersInspector.OnInspectorGUI
+  nameWithType: CullingTargetRenderersInspector.OnInspectorGUI
 - uid: MackySoft.Vision.VisionSettings
   name: VisionSettings
   href: api/MackySoft.Vision.VisionSettings.html

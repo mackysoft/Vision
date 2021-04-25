@@ -82,6 +82,12 @@
 <p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.0.0/">Keep a Changelog</a>,
 and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
+<h2 id="121---2021-04-25">[1.2.1] - 2021-04-25</h2>
+<h3 id="changed">Changed</h3>
+<ul>
+<li>Renamed from <code>VisionSettingsInitializer</code> to <code>VisionSettingsGenerator</code>.</li>
+<li>Implemented the <code>VISION_DISABLE_GENERATE_SETTINGS</code> definition symbol again to avoid the <code>Resources</code> folder being included in the OpwnUPM package.</li>
+</ul>
 <h2 id="120---2021-04-25">[1.2.0] - 2021-04-25</h2>
 <h3 id="added">Added</h3>
 <ul>
@@ -90,14 +96,14 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 </ul>
 </li>
 </ul>
-<h3 id="changed">Changed</h3>
+<h3 id="changed-1">Changed</h3>
 <ul>
 <li>Moved coponent menu of utility components to <code>MackySoft/Vision/Utilities/</code>.</li>
 <li><code>UnityPackageExporter</code> is now exclude the <code>Resources</code> folder.</li>
 <li><code>VisionSettingsInitializer</code> is now generate <code>VisionSettings</code> always.</li>
 </ul>
 <h2 id="115---2021-04-21">[1.1.5] - 2021-04-21</h2>
-<h3 id="changed-1">Changed</h3>
+<h3 id="changed-2">Changed</h3>
 <ul>
 <li>If the <code>CullingTargetBehaviour.GroupKey</code> is not set, a warning will now be displayed in the Inspector.</li>
 </ul>
@@ -111,7 +117,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <ul>
 <li>Added an unit tests.</li>
 </ul>
-<h3 id="changed-2">Changed</h3>
+<h3 id="changed-3">Changed</h3>
 <ul>
 <li>Every time there is a change in the repository, unit tests and build tests on each platform are now performed.<ul>
 <li>This ensures a certain level of package quality.</li>
@@ -134,7 +140,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <li>Removed the material&#39;s from example assets.</li>
 <li>Removed the <code>Resources/VisionSettings</code>.</li>
 </ul>
-<h3 id="changed-3">Changed</h3>
+<h3 id="changed-4">Changed</h3>
 <ul>
 <li>The automatic generation of <code>VisionSettings</code> can now be avoided by defining the <code>VISION_DISABLE_GENERATE_SETTINGS</code> definition symbol.<ul>
 <li>This is a measure to avoid including auto-generated VisionSettings in the package. They will not be used by the user.</li>
@@ -146,7 +152,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <ul>
 <li>Added the example scenes.</li>
 </ul>
-<h3 id="changed-4">Changed</h3>
+<h3 id="changed-5">Changed</h3>
 <ul>
 <li>When the <code>CullingGroupProxy</code> is selected in hierarchy during playmode, the <code>TargetCamera</code> frustum gizmo and the culling target handle&#39;s are now also displayed.</li>
 <li><code>CullingTargetRenderers</code> now perform a null check on <code>Rendrerers</code>.</li>
@@ -160,7 +166,7 @@ and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semant
 <ul>
 <li>Removed the constructor of <code>CullingGroupKeyDefinition</code>.</li>
 </ul>
-<h3 id="changed-5">Changed</h3>
+<h3 id="changed-6">Changed</h3>
 <ul>
 <li>Renamed <code>CameraSourceMode</code> to <code>CameraReferenceMode</code>.</li>
 <li>Updated some documents.</li>

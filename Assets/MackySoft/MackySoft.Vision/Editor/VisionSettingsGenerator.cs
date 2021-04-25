@@ -9,17 +9,19 @@ namespace MackySoft.Vision.Editor {
 	/// <summary>
 	/// Automatically create <see cref="VisionSettings"/>.
 	/// </summary>
-	class VisionSettingsInitializer {
+	class VisionSettingsGenerator {
 
 		const string k_ParentFolderName = "MackySoft.Vision";
 		
 		[InitializeOnLoadMethod]
 		static void Initialize () {
+			CreateSettings();
 			EditorApplication.projectChanged -= CreateSettings;
 			EditorApplication.projectChanged += CreateSettings;
 		}
 
 		static void CreateSettings () {
+#if !VISION_DISABLE_GENERATE_SETTINGS
 			var settings = VisionSettings.Instance;
 			if (settings != null) {
 				return;
@@ -53,6 +55,7 @@ namespace MackySoft.Vision.Editor {
 				UnityObject.DestroyImmediate(settings);
 				throw e;
 			}
+#endif
 		}
 
 	}

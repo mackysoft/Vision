@@ -5,9 +5,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Example", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision", "MackySoft.Vision.csproj", "{8BA2FA2C-4211-781E-DDDD-200926FFA88A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Editor.PackageTools", "MackySoft.Vision.Editor.PackageTools.csproj", "{ABA14616-3C4F-7118-2C07-DD63AD823932}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Editor", "MackySoft.Vision.Editor.csproj", "{8D9D1618-401E-0D7B-B646-57E039DE5233}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Editor.PackageTools", "MackySoft.Vision.Editor.PackageTools.csproj", "{ABA14616-3C4F-7118-2C07-DD63AD823932}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MackySoft.Vision.Editor.Tests", "MackySoft.Vision.Editor.Tests.csproj", "{7A614DC0-40DB-B830-9446-7D33E499068E}"
 EndProject
@@ -25,14 +25,14 @@ Global
 		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8BA2FA2C-4211-781E-DDDD-200926FFA88A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8D9D1618-401E-0D7B-B646-57E039DE5233}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABA14616-3C4F-7118-2C07-DD63AD823932}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7A614DC0-40DB-B830-9446-7D33E499068E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{7A614DC0-40DB-B830-9446-7D33E499068E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A614DC0-40DB-B830-9446-7D33E499068E}.Release|Any CPU.ActiveCfg = Release|Any CPU

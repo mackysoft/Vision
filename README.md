@@ -2,10 +2,7 @@
 
 **Created by Hiroya Aramaki ([Makihiro](https://twitter.com/makihiro_dev))**
 
-[![Tests](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml)
-[![Build](https://github.com/mackysoft/Vision/actions/workflows/build.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/build.yaml)
-[![Release](https://img.shields.io/github/v/release/mackysoft/Vision)](https://github.com/mackysoft/Vision/releases)
-[![openupm](https://img.shields.io/npm/v/com.mackysoft.vision?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mackysoft.vision/)
+[![Tests](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/tests.yaml) [![Build](https://github.com/mackysoft/Vision/actions/workflows/build.yaml/badge.svg)](https://github.com/mackysoft/Vision/actions/workflows/build.yaml) [![Release](https://img.shields.io/github/v/release/mackysoft/Vision)](https://github.com/mackysoft/Vision/releases) [![openupm](https://img.shields.io/npm/v/com.mackysoft.vision?label=openupm&registry_uri=https://package.openupm.com)](https://openupm.com/packages/com.mackysoft.vision/)
 
 
 ## What is CullingGroup API ?
